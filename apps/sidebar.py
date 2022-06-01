@@ -12,6 +12,7 @@ from glov import vars
 
 
 def add():
+
     inputs = {}
     st.sidebar.title('S+')
     # st.sidebar.header('Quantitative trading')
@@ -76,9 +77,9 @@ def add():
         #!! start and end date
         today = date.today()
         last4day = today - timedelta(5)
-        start_date = st.sidebar.date_input("Start Date:", datetime.date(
-            last4day.year, last4day.month, last4day.day))
-        end_date = st.sidebar.date_input("End Date: ", today)
+        start_date = st.sidebar.date_input("Start Date:", last4day, max_value=today - timedelta(1))
+        end_date = st.sidebar.date_input(
+            "End Date: ", today, min_value=start_date, max_value=today)
         inputs[vars.Start] = start_date
         inputs[vars.End] = end_date
 
@@ -88,6 +89,6 @@ def add():
     #!! Adding global variables
     max1 = vars.days // 5 + 1
     vars.time_window = st.sidebar.slider(
-        'Analysis Time-window:', min_value=1, max_value=max1) # help="Calculate rolling and exponential values (day)")
+        'Analysis Time-window:', value=max1, min_value=0, max_value=max1)  # help="Calculate rolling and exponential values (day)")
     #!! reuturn input list
     return inputs

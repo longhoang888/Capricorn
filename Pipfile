@@ -11,6 +11,8 @@ numpy = "*"
 matplotlib = "*"
 altair = "*"
 datetime = "*"
+openpyxl = "*"
+xlwt = "*"
 
 [dev-packages]
 

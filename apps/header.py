@@ -10,6 +10,8 @@ import numpy as np
 import pandas as pd
 from datetime import date, timedelta
 from glov import vars
+from util import devf
+import xlwt
 
 def add(ticker):
     st.write('Data source: **Yahoo Finance**')
@@ -22,23 +24,30 @@ def add(ticker):
     tickerData_df.replace("", np.nan, inplace=True)
     tickerData_df.dropna(inplace=True)
     tickerData_df.columns = ['label', 'values']
+    tickerData_out = tickerData_df
     tickerData_df.set_index('label', inplace=True)
-    # np_array = np.array(tickerData_list)
-    # tickerData_trans_list = np_array.T.tolist()
-    # tickerData_df = pd.DataFrame( tickerData_trans_list, columns=tickerData_trans_list[0])
-    # tickerData_df = tickerData_df[1:]
-    # tickerData_df.dropna(axis=1, inplace=True)
-    
+
+    # tickerData_out["label"] = tickerData_df["label"].capitalize()
+
     #!! Company name
     longName = tickerData_df.at['longName', 'values']
-    st.title(longName)
+    hcol1, hcol2, hcol3, hcol4, hcol5 = st.columns(5)
+    with  hcol1:
+        st.title(longName)
+    with hcol2:
+        st.metric("Trade Volume", value=tickerData_df.at["volume", "values"],delta=tickerData_df.at["averageVolume", "values"], delta_color="inverse")
     with st.expander("Learn more"):
         busiSum = tickerData_df.at['longBusinessSummary', 'values']
         st.write(busiSum)
+        csv = tickerData_out.to_csv().encode('utf-8')
+        #!! Summary info
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.write(tickerData.balancesheet)
+            # shortRatio = tickerData_df.at["shortRatio", "values"]
+            # # st.metric("Short Ratio", value=shortRatio,delta=50, delta_color="inverse")
 
-    # st.write(tickerData_df)
+        st.download_button("Download data to excel", data = csv, file_name=ticker + "_quote_" + str(date.today()) + ".csv")
 
-    # st.markdown(f"Company name: {cname}")
-    # with st.container():
-    # st.write(tickerData_df[["longName"]])
-    # st.dataframe(tickerData_df)
+
+
