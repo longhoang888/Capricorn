@@ -1,5 +1,5 @@
 # python-streamlit
-Project Streamlit
+Project LEO
 Libraries: streamlit, yfinance, pnadas, numpy
 
 pip install streamlit
