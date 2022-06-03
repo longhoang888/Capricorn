@@ -1,0 +1,7 @@
+# References:
+# 1. https://aroussi.com/post/python-yahoo-finance
+# 2. https://docs.streamlit.io/library/api-reference/widgets/st.radio
+# 3. https://www.journaldev.com/
+# 4. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_dict.html
+# 5. https://site.financialmodelingprep.com/developer/docs/company-key-metrics-api
+# 6. https://www.tradingview.com/scripts/
