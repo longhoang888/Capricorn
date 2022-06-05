@@ -1,49 +1,3571 @@
-06/02/2022 02:36:32 PM : ERROR : devf : active_logger : 38 : (Process Details : (53240, MainProcess), Thread Details : (63720, ScriptRunner.scriptThread))
-Log Message : Error Type : KeyError, Error Message : 'formatters'
-06/02/2022 02:47:33 PM : ERROR : devf : active_logger : 38 : (Process Details : (75328, MainProcess), Thread Details : (104844, ScriptRunner.scriptThread))
-Log Message : Error Type : KeyError, Error Message : 'formatters'
-06/02/2022 02:56:36 PM : ERROR : devf : active_logger : 38 : (Process Details : (74836, MainProcess), Thread Details : (25780, ScriptRunner.scriptThread))
-Log Message : Error Type : KeyError, Error Message : 'formatters'
-02-06-2022 03:02:55 : ERROR : devf : get_yfdata : 71 : (Process Details : (82404, MainProcess), Thread Details : (18564, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 03:06:29 : ERROR : devf : get_yfdata : 71 : (Process Details : (82404, MainProcess), Thread Details : (98460, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 03:06:29 : ERROR : app : main : 57 : (Process Details : (82404, MainProcess), Thread Details : (98460, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 03:06:45 : ERROR : devf : get_yfdata : 71 : (Process Details : (82404, MainProcess), Thread Details : (39020, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 03:06:45 : ERROR : app : main : 57 : (Process Details : (82404, MainProcess), Thread Details : (39020, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 03:10:43 : ERROR : devf : active_logger : 39 : (Process Details : (82404, MainProcess), Thread Details : (32784, ScriptRunner.scriptThread))\nLog : Error Type : DuplicateSectionError, Error Message : While reading from 'log.conf' [line 32]: section 'handler_file' already exists
-06/02/2022 03:10:43 PM : ERROR : devf : active_logger : 39 : (Process Details : (82404, MainProcess), Thread Details : (32784, ScriptRunner.scriptThread))
-Log Message : Error Type : DuplicateSectionError, Error Message : While reading from 'log.conf' [line 32]: section 'handler_file' already exists
-02-06-2022 03:10:44 : ERROR : devf : get_yfdata : 72 : (Process Details : (82404, MainProcess), Thread Details : (32784, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 03:10:44 : ERROR : app : main : 57 : (Process Details : (82404, MainProcess), Thread Details : (32784, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-06/02/2022 03:12:26 PM : ERROR : devf : active_logger : 39 : (Process Details : (21300, MainProcess), Thread Details : (8600, ScriptRunner.scriptThread))
-Log Message : Error Type : DuplicateSectionError, Error Message : While reading from 'log.conf' [line 32]: section 'handler_file' already exists
-02-06-2022 03:15:29 : ERROR : devf : get_yfdata : 72 : (Process Details : (42728, MainProcess), Thread Details : (33584, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 03:15:29 : ERROR : app : main : 57 : (Process Details : (42728, MainProcess), Thread Details : (33584, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 03:16:17 : ERROR : devf : get_yfdata : 72 : (Process Details : (42728, MainProcess), Thread Details : (88304, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 03:16:17 : ERROR : app : main : 57 : (Process Details : (42728, MainProcess), Thread Details : (88304, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 03:32:49 : ERROR : app : main : 58 : (Process Details : (95588, MainProcess), Thread Details : (61364, ScriptRunner.scriptThread))\nLog : Error Type : TypeError, Error Message : 'module' object is not callable
-02-06-2022 03:34:48 : ERROR : app : main : 60 : (Process Details : (95588, MainProcess), Thread Details : (28072, ScriptRunner.scriptThread))\nLog : Error Type : TypeError, Error Message : 'module' object is not callable
-02-06-2022 03:59:57 : ERROR : app : main : 60 : (Process Details : (8124, MainProcess), Thread Details : (13252, ScriptRunner.scriptThread))\nLog : Error Type : TypeError, Error Message : 'module' object is not callable
-02-06-2022 04:02:13 : ERROR : devf : get_yfdata : 71 : (Process Details : (14156, MainProcess), Thread Details : (15824, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : "None of ['Date'] are in the columns"
-02-06-2022 04:02:13 : ERROR : app : main : 60 : (Process Details : (14156, MainProcess), Thread Details : (15824, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 04:02:47 : ERROR : devf : get_yfdata : 71 : (Process Details : (14156, MainProcess), Thread Details : (13064, ScriptRunner.scriptThread))\nLog : Error Type : TypeError, Error Message : DataFrame.set_index() missing 1 required positional argument: 'keys'
-02-06-2022 04:02:47 : ERROR : app : main : 60 : (Process Details : (14156, MainProcess), Thread Details : (13064, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 04:05:59 : ERROR : devf : get_yfdata : 71 : (Process Details : (10128, MainProcess), Thread Details : (14512, MainThread))\nLog : Error Type : TypeError, Error Message : DataFrame.set_index() missing 1 required positional argument: 'keys'
-02-06-2022 04:05:59 : ERROR : app : main : 60 : (Process Details : (10128, MainProcess), Thread Details : (14512, MainThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 04:07:35 : ERROR : devf : get_yfdata : 73 : (Process Details : (8456, MainProcess), Thread Details : (7176, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Date'
-02-06-2022 04:07:35 : ERROR : app : main : 60 : (Process Details : (8456, MainProcess), Thread Details : (7176, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 04:07:57 : ERROR : devf : get_yfdata : 73 : (Process Details : (8456, MainProcess), Thread Details : (17492, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Date'
-02-06-2022 04:07:57 : ERROR : app : main : 60 : (Process Details : (8456, MainProcess), Thread Details : (17492, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 04:17:04 : ERROR : header : add : 62 : (Process Details : (8456, MainProcess), Thread Details : (14964, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'int' object has no attribute 'style'
-02-06-2022 04:17:24 : ERROR : header : add : 61 : (Process Details : (8456, MainProcess), Thread Details : (7932, ScriptRunner.scriptThread))\nLog : Error Type : NameError, Error Message : name 'value' is not defined
-02-06-2022 04:25:26 : ERROR : devf : get_yfdata : 73 : (Process Details : (8456, MainProcess), Thread Details : (2544, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Datetime'
-02-06-2022 04:25:26 : ERROR : app : main : 60 : (Process Details : (8456, MainProcess), Thread Details : (2544, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-02-06-2022 04:25:46 : ERROR : devf : get_yfdata : 73 : (Process Details : (8456, MainProcess), Thread Details : (4036, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Datetime'
-02-06-2022 04:25:46 : ERROR : app : main : 60 : (Process Details : (8456, MainProcess), Thread Details : (4036, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-03-06-2022 10:02:50 : ERROR : dashboard : tableau : 34 : (Process Details : (4084, MainProcess), Thread Details : (16772, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : yellow is not valid. Available options: ['streamlit', 'light', 'dark', 'blue', 'fresh', 'material']
-03-06-2022 10:03:38 : ERROR : dashboard : tableau : 34 : (Process Details : (4084, MainProcess), Thread Details : (21688, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : ag-theme-alpine-dark is not valid. Available options: ['streamlit', 'light', 'dark', 'blue', 'fresh', 'material']
-03-06-2022 11:05:51 : ERROR : devf : get_yfdata : 76 : (Process Details : (4084, MainProcess), Thread Details : (16400, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'DataFrame' object has no attribute 'map'
-03-06-2022 11:05:51 : ERROR : app : main : 61 : (Process Details : (4084, MainProcess), Thread Details : (16400, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-03-06-2022 11:06:03 : ERROR : app : main : 61 : (Process Details : (4084, MainProcess), Thread Details : (17596, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-03-06-2022 11:10:48 : ERROR : devf : get_yfdata : 77 : (Process Details : (4084, MainProcess), Thread Details : (14516, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid format specifier
-03-06-2022 11:10:48 : ERROR : app : main : 61 : (Process Details : (4084, MainProcess), Thread Details : (14516, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
-03-06-2022 11:11:12 : ERROR : app : main : 61 : (Process Details : (4084, MainProcess), Thread Details : (15976, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
+04-06-2022 04:24:29 : ERROR : dashboard : candlestick : 72 : (Process Details : (22392, MainProcess), Thread Details : (27536, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Date'
+04-06-2022 04:24:51 : ERROR : dashboard : candlestick : 72 : (Process Details : (22392, MainProcess), Thread Details : (18900, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Date'
+04-06-2022 04:25:27 : ERROR : dashboard : candlestick : 72 : (Process Details : (22392, MainProcess), Thread Details : (11764, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'Date'
+04-06-2022 05:27:13 : ERROR : devf : get_yfdata : 87 : (Process Details : (11808, MainProcess), Thread Details : (14064, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Unknown format code 'd' for object of type 'float'
+04-06-2022 05:27:13 : ERROR : app : main : 62 : (Process Details : (11808, MainProcess), Thread Details : (14064, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
+04-06-2022 05:28:22 : ERROR : devf : get_yfdata : 87 : (Process Details : (11808, MainProcess), Thread Details : (8504, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Unknown format code 'd' for object of type 'float'
+04-06-2022 05:28:22 : ERROR : app : main : 62 : (Process Details : (11808, MainProcess), Thread Details : (8504, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
+04-06-2022 05:28:59 : ERROR : devf : get_yfdata : 87 : (Process Details : (11808, MainProcess), Thread Details : (23860, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid format specifier
+04-06-2022 05:28:59 : ERROR : app : main : 62 : (Process Details : (11808, MainProcess), Thread Details : (23860, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
+04-06-2022 05:29:43 : ERROR : devf : get_yfdata : 88 : (Process Details : (11808, MainProcess), Thread Details : (26252, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid format specifier
+04-06-2022 05:29:43 : ERROR : app : main : 62 : (Process Details : (11808, MainProcess), Thread Details : (26252, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'NoneType' object has no attribute 'empty'
+04-06-2022 05:59:42 : ERROR : dashboard : candlestick : 90 : (Process Details : (11808, MainProcess), Thread Details : (22684, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.Bar: 'bar'
+
+Did you mean "base"?
+
+    Valid properties:
+        alignmentgroup
+            Set several traces linked to the same position axis or
+            matching axes to the same alignmentgroup. This controls
+            whether bars compute their positional range dependently
+            or independently.
+        base
+            Sets where the bar base is drawn (in position axis
+            units). In "stack" or "relative" barmode, traces that
+            set "base" will be excluded and drawn in "overlay" mode
+            instead.
+        basesrc
+            Sets the source reference on Chart Studio Cloud for
+            `base`.
+        cliponaxis
+            Determines whether the text nodes are clipped about the
+            subplot axes. To show the text nodes above axis lines
+            and tick labels, make sure to set `xaxis.layer` and
+            `yaxis.layer` to *below traces*.
+        constraintext
+            Constrain the size of text inside or outside a bar to
+            be no larger than the bar itself.
+        customdata
+            Assigns extra data each datum. This may be useful when
+            listening to hover, click and selection events. Note
+            that, "scatter" traces also appends customdata items in
+            the markers DOM elements
+        customdatasrc
+            Sets the source reference on Chart Studio Cloud for
+            `customdata`.
+        dx
+            Sets the x coordinate step. See `x0` for more info.
+        dy
+            Sets the y coordinate step. See `y0` for more info.
+        error_x
+            :class:`plotly.graph_objects.bar.ErrorX` instance or
+            dict with compatible properties
+        error_y
+            :class:`plotly.graph_objects.bar.ErrorY` instance or
+            dict with compatible properties
+        hoverinfo
+            Determines which trace information appear on hover. If
+            `none` or `skip` are set, no information is displayed
+            upon hovering. But, if `none` is set, click and hover
+            events are still fired.
+        hoverinfosrc
+            Sets the source reference on Chart Studio Cloud for
+            `hoverinfo`.
+        hoverlabel
+            :class:`plotly.graph_objects.bar.Hoverlabel` instance
+            or dict with compatible properties
+        hovertemplate
+            Template string used for rendering the information that
+            appear on hover box. Note that this will override
+            `hoverinfo`. Variables are inserted using %{variable},
+            for example "y: %{y}" as well as %{xother}, {%_xother},
+            {%_xother_}, {%xother_}. When showing info for several
+            points, "xother" will be added to those with different
+            x positions from the first point. An underscore before
+            or after "(x|y)other" will add a space on that side,
+            only when this field is shown. Numbers are formatted
+            using d3-format's syntax %{variable:d3-format}, for
+            example "Price: %{y:$.2f}".
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format
+            for details on the formatting syntax. Dates are
+            formatted using d3-time-format's syntax
+            %{variable|d3-time-format}, for example "Day:
+            %{2019-01-01|%A}". https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format for details on the
+            date formatting syntax. The variables available in
+            `hovertemplate` are the ones emitted as event data
+            described at this link
+            https://plotly.com/javascript/plotlyjs-events/#event-
+            data. Additionally, every attributes that can be
+            specified per-point (the ones that are `arrayOk: true`)
+            are available. variables `value` and `label`. Anything
+            contained in tag `<extra>` is displayed in the
+            secondary box, for example
+            "<extra>{fullData.name}</extra>". To hide the secondary
+            box completely, use an empty tag `<extra></extra>`.
+        hovertemplatesrc
+            Sets the source reference on Chart Studio Cloud for
+            `hovertemplate`.
+        hovertext
+            Sets hover text elements associated with each (x,y)
+            pair. If a single string, the same string appears over
+            all the data points. If an array of string, the items
+            are mapped in order to the this trace's (x,y)
+            coordinates. To be seen, trace `hoverinfo` must contain
+            a "text" flag.
+        hovertextsrc
+            Sets the source reference on Chart Studio Cloud for
+            `hovertext`.
+        ids
+            Assigns id labels to each datum. These ids for object
+            constancy of data points during animation. Should be an
+            array of strings, not numbers or any other type.
+        idssrc
+            Sets the source reference on Chart Studio Cloud for
+            `ids`.
+        insidetextanchor
+            Determines if texts are kept at center or start/end
+            points in `textposition` "inside" mode.
+        insidetextfont
+            Sets the font used for `text` lying inside the bar.
+        legendgroup
+            Sets the legend group for this trace. Traces part of
+            the same legend group hide/show at the same time when
+            toggling legend items.
+        legendgrouptitle
+            :class:`plotly.graph_objects.bar.Legendgrouptitle`
+            instance or dict with compatible properties
+        legendrank
+            Sets the legend rank for this trace. Items and groups
+            with smaller ranks are presented on top/left side while
+            with `*reversed* `legend.traceorder` they are on
+            bottom/right side. The default legendrank is 1000, so
+            that you can use ranks less than 1000 to place certain
+            items before all unranked items, and ranks greater than
+            1000 to go after all unranked items.
+        marker
+            :class:`plotly.graph_objects.bar.Marker` instance or
+            dict with compatible properties
+        meta
+            Assigns extra meta information associated with this
+            trace that can be used in various text attributes.
+            Attributes such as trace `name`, graph, axis and
+            colorbar `title.text`, annotation `text`
+            `rangeselector`, `updatemenues` and `sliders` `label`
+            text all support `meta`. To access the trace `meta`
+            values in an attribute in the same trace, simply use
+            `%{meta[i]}` where `i` is the index or key of the
+            `meta` item in question. To access trace `meta` in
+            layout attributes, use `%{data[n[.meta[i]}` where `i`
+            is the index or key of the `meta` and `n` is the trace
+            index.
+        metasrc
+            Sets the source reference on Chart Studio Cloud for
+            `meta`.
+        name
+            Sets the trace name. The trace name appear as the
+            legend item and on hover.
+        offset
+            Shifts the position where the bar is drawn (in position
+            axis units). In "group" barmode, traces that set
+            "offset" will be excluded and drawn in "overlay" mode
+            instead.
+        offsetgroup
+            Set several traces linked to the same position axis or
+            matching axes to the same offsetgroup where bars of the
+            same position coordinate will line up.
+        offsetsrc
+            Sets the source reference on Chart Studio Cloud for
+            `offset`.
+        opacity
+            Sets the opacity of the trace.
+        orientation
+            Sets the orientation of the bars. With "v" ("h"), the
+            value of the each bar spans along the vertical
+            (horizontal).
+        outsidetextfont
+            Sets the font used for `text` lying outside the bar.
+        selected
+            :class:`plotly.graph_objects.bar.Selected` instance or
+            dict with compatible properties
+        selectedpoints
+            Array containing integer indices of selected points.
+            Has an effect only for traces that support selections.
+            Note that an empty array means an empty selection where
+            the `unselected` are turned on for all points, whereas,
+            any other non-array values means no selection all where
+            the `selected` and `unselected` styles have no effect.
+        showlegend
+            Determines whether or not an item corresponding to this
+            trace is shown in the legend.
+        stream
+            :class:`plotly.graph_objects.bar.Stream` instance or
+            dict with compatible properties
+        text
+            Sets text elements associated with each (x,y) pair. If
+            a single string, the same string appears over all the
+            data points. If an array of string, the items are
+            mapped in order to the this trace's (x,y) coordinates.
+            If trace `hoverinfo` contains a "text" flag and
+            "hovertext" is not set, these elements will be seen in
+            the hover labels.
+        textangle
+            Sets the angle of the tick labels with respect to the
+            bar. For example, a `tickangle` of -90 draws the tick
+            labels vertically. With "auto" the texts may
+            automatically be rotated to fit with the maximum size
+            in bars.
+        textfont
+            Sets the font used for `text`.
+        textposition
+            Specifies the location of the `text`. "inside"
+            positions `text` inside, next to the bar end (rotated
+            and scaled if needed). "outside" positions `text`
+            outside, next to the bar end (scaled if needed), unless
+            there is another bar stacked on this one, then the text
+            gets pushed inside. "auto" tries to position `text`
+            inside the bar, but if the bar is too small and no bar
+            is stacked on this one the text is moved outside. If
+            "none", no text appears.
+        textpositionsrc
+            Sets the source reference on Chart Studio Cloud for
+            `textposition`.
+        textsrc
+            Sets the source reference on Chart Studio Cloud for
+            `text`.
+        texttemplate
+            Template string used for rendering the information text
+            that appear on points. Note that this will override
+            `textinfo`. Variables are inserted using %{variable},
+            for example "y: %{y}". Numbers are formatted using
+            d3-format's syntax %{variable:d3-format}, for example
+            "Price: %{y:$.2f}".
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format
+            for details on the formatting syntax. Dates are
+            formatted using d3-time-format's syntax
+            %{variable|d3-time-format}, for example "Day:
+            %{2019-01-01|%A}". https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format for details on the
+            date formatting syntax. Every attributes that can be
+            specified per-point (the ones that are `arrayOk: true`)
+            are available. variables `value` and `label`.
+        texttemplatesrc
+            Sets the source reference on Chart Studio Cloud for
+            `texttemplate`.
+        uid
+            Assign an id to this trace, Use this to provide object
+            constancy between traces during animations and
+            transitions.
+        uirevision
+            Controls persistence of some user-driven changes to the
+            trace: `constraintrange` in `parcoords` traces, as well
+            as some `editable: true` modifications such as `name`
+            and `colorbar.title`. Defaults to `layout.uirevision`.
+            Note that other user-driven trace attribute changes are
+            controlled by `layout` attributes: `trace.visible` is
+            controlled by `layout.legend.uirevision`,
+            `selectedpoints` is controlled by
+            `layout.selectionrevision`, and `colorbar.(x|y)`
+            (accessible with `config: {editable: true}`) is
+            controlled by `layout.editrevision`. Trace changes are
+            tracked by `uid`, which only falls back on trace index
+            if no `uid` is provided. So if your app can add/remove
+            traces before the end of the `data` array, such that
+            the same trace has a different index, you can still
+            preserve user-driven changes if you give each trace a
+            `uid` that stays with it as it moves.
+        unselected
+            :class:`plotly.graph_objects.bar.Unselected` instance
+            or dict with compatible properties
+        visible
+            Determines whether or not this trace is visible. If
+            "legendonly", the trace is not drawn, but can appear as
+            a legend item (provided that the legend itself is
+            visible).
+        width
+            Sets the bar width (in position axis units).
+        widthsrc
+            Sets the source reference on Chart Studio Cloud for
+            `width`.
+        x
+            Sets the x coordinates.
+        x0
+            Alternate to `x`. Builds a linear space of x
+            coordinates. Use with `dx` where `x0` is the starting
+            coordinate and `dx` the step.
+        xaxis
+            Sets a reference between this trace's x coordinates and
+            a 2D cartesian x axis. If "x" (the default value), the
+            x coordinates refer to `layout.xaxis`. If "x2", the x
+            coordinates refer to `layout.xaxis2`, and so on.
+        xcalendar
+            Sets the calendar system to use with `x` date data.
+        xhoverformat
+            Sets the hover text formatting rulefor `x`  using d3
+            formatting mini-languages which are very similar to
+            those in Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display *09~15~23.46*By default the values are
+            formatted using `xaxis.hoverformat`.
+        xperiod
+            Only relevant when the axis `type` is "date". Sets the
+            period positioning in milliseconds or "M<n>" on the x
+            axis. Special values in the form of "M<n>" could be
+            used to declare the number of months. In this case `n`
+            must be a positive integer.
+        xperiod0
+            Only relevant when the axis `type` is "date". Sets the
+            base for period positioning in milliseconds or date
+            string on the x0 axis. When `x0period` is round number
+            of weeks, the `x0period0` by default would be on a
+            Sunday i.e. 2000-01-02, otherwise it would be at
+            2000-01-01.
+        xperiodalignment
+            Only relevant when the axis `type` is "date". Sets the
+            alignment of data points on the x axis.
+        xsrc
+            Sets the source reference on Chart Studio Cloud for
+            `x`.
+        y
+            Sets the y coordinates.
+        y0
+            Alternate to `y`. Builds a linear space of y
+            coordinates. Use with `dy` where `y0` is the starting
+            coordinate and `dy` the step.
+        yaxis
+            Sets a reference between this trace's y coordinates and
+            a 2D cartesian y axis. If "y" (the default value), the
+            y coordinates refer to `layout.yaxis`. If "y2", the y
+            coordinates refer to `layout.yaxis2`, and so on.
+        ycalendar
+            Sets the calendar system to use with `y` date data.
+        yhoverformat
+            Sets the hover text formatting rulefor `y`  using d3
+            formatting mini-languages which are very similar to
+            those in Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display *09~15~23.46*By default the values are
+            formatted using `yaxis.hoverformat`.
+        yperiod
+            Only relevant when the axis `type` is "date". Sets the
+            period positioning in milliseconds or "M<n>" on the y
+            axis. Special values in the form of "M<n>" could be
+            used to declare the number of months. In this case `n`
+            must be a positive integer.
+        yperiod0
+            Only relevant when the axis `type` is "date". Sets the
+            base for period positioning in milliseconds or date
+            string on the y0 axis. When `y0period` is round number
+            of weeks, the `y0period0` by default would be on a
+            Sunday i.e. 2000-01-02, otherwise it would be at
+            2000-01-01.
+        yperiodalignment
+            Only relevant when the axis `type` is "date". Sets the
+            alignment of data points on the y axis.
+        ysrc
+            Sets the source reference on Chart Studio Cloud for
+            `y`.
+        
+Did you mean "base"?
+
+Bad property path:
+bar
+^^^
+04-06-2022 08:12:54 : ERROR : dashboard : candlestick : 94 : (Process Details : (11808, MainProcess), Thread Details : (21148, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : 
+Subplot with type '{subplot_type}' at grid position ({row}, {col}) was not
+created with the secondary_y spec property set to True. See the docstring
+for the specs argument to plotly.subplots.make_subplots for more information.
+
+04-06-2022 08:15:28 : ERROR : dashboard : candlestick : 94 : (Process Details : (11808, MainProcess), Thread Details : (27324, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : 
+The 'specs' argument to make_subplots must be a 2D list of dictionaries with dimensions (2 x 1).
+    Received value of type <class 'list'>: [[{'secondary_y': True}]]
+04-06-2022 08:16:49 : ERROR : dashboard : candlestick : 94 : (Process Details : (11808, MainProcess), Thread Details : (20892, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : 
+The 'row_heights' argument to make_suplots must be a list of numbers of length 2.
+    Received value of type <class 'int'>: 1100
+04-06-2022 08:26:19 : ERROR : dashboard : candlestick : 94 : (Process Details : (11808, MainProcess), Thread Details : (16728, ScriptRunner.scriptThread))\nLog : Error Type : NameError, Error Message : name 'Flase' is not defined
+04-06-2022 08:31:40 : ERROR : dashboard : candlestick : 96 : (Process Details : (11808, MainProcess), Thread Details : (17764, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : 
+The 'specs' argument to make_subplots must be a 2D list of dictionaries with dimensions (2 x 1).
+    Received value of type <class 'list'>: [[{}, {}]]
+04-06-2022 09:11:38 : ERROR : dashboard : candlestick : 97 : (Process Details : (11808, MainProcess), Thread Details : (20688, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.layout.XAxis: 'xaxis'
+
+Did you mean "layer"?
+
+    Valid properties:
+        anchor
+            If set to an opposite-letter axis id (e.g. `x2`, `y`),
+            this axis is bound to the corresponding opposite-letter
+            axis. If set to "free", this axis' position is
+            determined by `position`.
+        automargin
+            Determines whether long tick labels automatically grow
+            the figure margins.
+        autorange
+            Determines whether or not the range of this axis is
+            computed in relation to the input data. See `rangemode`
+            for more info. If `range` is provided, then `autorange`
+            is set to False.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. Defaults to
+            layout.autotypenumbers.
+        calendar
+            Sets the calendar system to use for `range` and `tick0`
+            if this is a date axis. This does not set the calendar
+            for interpreting data on this axis, that's specified in
+            the trace or via the global `layout.calendar`
+        categoryarray
+            Sets the order in which categories on this axis appear.
+            Only has an effect if `categoryorder` is set to
+            "array". Used with `categoryorder`.
+        categoryarraysrc
+            Sets the source reference on Chart Studio Cloud for
+            `categoryarray`.
+        categoryorder
+            Specifies the ordering logic for the case of
+            categorical variables. By default, plotly uses "trace",
+            which specifies the order that is present in the data
+            supplied. Set `categoryorder` to *category ascending*
+            or *category descending* if order should be determined
+            by the alphanumerical order of the category names. Set
+            `categoryorder` to "array" to derive the ordering from
+            the attribute `categoryarray`. If a category is not
+            found in the `categoryarray` array, the sorting
+            behavior for that attribute will be identical to the
+            "trace" mode. The unspecified categories will follow
+            the categories in `categoryarray`. Set `categoryorder`
+            to *total ascending* or *total descending* if order
+            should be determined by the numerical order of the
+            values. Similarly, the order can be determined by the
+            min, max, sum, mean or median of all the values.
+        color
+            Sets default for all colors associated with this axis
+            all at once: line, font, tick, and grid colors. Grid
+            color is lightened by blending this with the plot
+            background Individual pieces can override this.
+        constrain
+            If this axis needs to be compressed (either due to its
+            own `scaleanchor` and `scaleratio` or those of the
+            other axis), determines how that happens: by increasing
+            the "range", or by decreasing the "domain". Default is
+            "domain" for axes containing image traces, "range"
+            otherwise.
+        constraintoward
+            If this axis needs to be compressed (either due to its
+            own `scaleanchor` and `scaleratio` or those of the
+            other axis), determines which direction we push the
+            originally specified plot area. Options are "left",
+            "center" (default), and "right" for x axes, and "top",
+            "middle" (default), and "bottom" for y axes.
+        dividercolor
+            Sets the color of the dividers Only has an effect on
+            "multicategory" axes.
+        dividerwidth
+            Sets the width (in px) of the dividers Only has an
+            effect on "multicategory" axes.
+        domain
+            Sets the domain of this axis (in plot fraction).
+        dtick
+            Sets the step in-between ticks on this axis. Use with
+            `tick0`. Must be a positive number, or special strings
+            available to "log" and "date" axes. If the axis `type`
+            is "log", then ticks are set every 10^(n*dtick) where n
+            is the tick number. For example, to set a tick mark at
+            1, 10, 100, 1000, ... set dtick to 1. To set tick marks
+            at 1, 100, 10000, ... set dtick to 2. To set tick marks
+            at 1, 5, 25, 125, 625, 3125, ... set dtick to
+            log_10(5), or 0.69897000433. "log" has several special
+            values; "L<f>", where `f` is a positive number, gives
+            ticks linearly spaced in value (but not position). For
+            example `tick0` = 0.1, `dtick` = "L0.5" will put ticks
+            at 0.1, 0.6, 1.1, 1.6 etc. To show powers of 10 plus
+            small digits between, use "D1" (all digits) or "D2"
+            (only 2 and 5). `tick0` is ignored for "D1" and "D2".
+            If the axis `type` is "date", then you must convert the
+            time to milliseconds. For example, to set the interval
+            between ticks to one day, set `dtick` to 86400000.0.
+            "date" also has special values "M<n>" gives ticks
+            spaced by a number of months. `n` must be a positive
+            integer. To set ticks on the 15th of every third month,
+            set `tick0` to "2000-01-15" and `dtick` to "M3". To set
+            ticks every 4 years, set `dtick` to "M48"
+        exponentformat
+            Determines a formatting rule for the tick exponents.
+            For example, consider the number 1,000,000,000. If
+            "none", it appears as 1,000,000,000. If "e", 1e+9. If
+            "E", 1E+9. If "power", 1x10^9 (with 9 in a super
+            script). If "SI", 1G. If "B", 1B.
+        fixedrange
+            Determines whether or not this axis is zoom-able. If
+            true, then zoom is disabled.
+        gridcolor
+            Sets the color of the grid lines.
+        griddash
+            Sets the dash style of lines. Set to a dash type string
+            ("solid", "dot", "dash", "longdash", "dashdot", or
+            "longdashdot") or a dash length list in px (eg
+            "5px,10px,2px,2px").
+        gridwidth
+            Sets the width (in px) of the grid lines.
+        hoverformat
+            Sets the hover text formatting rule using d3 formatting
+            mini-languages which are very similar to those in
+            Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display "09~15~23.46"
+        layer
+            Sets the layer on which this axis is displayed. If
+            *above traces*, this axis is displayed above all the
+            subplot's traces If *below traces*, this axis is
+            displayed below all the subplot's traces, but above the
+            grid lines. Useful when used together with scatter-like
+            traces with `cliponaxis` set to False to show markers
+            and/or text nodes above this axis.
+        linecolor
+            Sets the axis line color.
+        linewidth
+            Sets the width (in px) of the axis line.
+        matches
+            If set to another axis id (e.g. `x2`, `y`), the range
+            of this axis will match the range of the corresponding
+            axis in data-coordinates space. Moreover, matching axes
+            share auto-range values, category lists and histogram
+            auto-bins. Note that setting axes simultaneously in
+            both a `scaleanchor` and a `matches` constraint is
+            currently forbidden. Moreover, note that matching axes
+            must have the same `type`.
+        minexponent
+            Hide SI prefix for 10^n if |n| is below this number.
+            This only has an effect when `tickformat` is "SI" or
+            "B".
+        minor
+            :class:`plotly.graph_objects.layout.xaxis.Minor`
+            instance or dict with compatible properties
+        mirror
+            Determines if the axis lines or/and ticks are mirrored
+            to the opposite side of the plotting area. If True, the
+            axis lines are mirrored. If "ticks", the axis lines and
+            ticks are mirrored. If False, mirroring is disable. If
+            "all", axis lines are mirrored on all shared-axes
+            subplots. If "allticks", axis lines and ticks are
+            mirrored on all shared-axes subplots.
+        nticks
+            Specifies the maximum number of ticks for the
+            particular axis. The actual number of ticks will be
+            chosen automatically to be less than or equal to
+            `nticks`. Has an effect only if `tickmode` is set to
+            "auto".
+        overlaying
+            If set a same-letter axis id, this axis is overlaid on
+            top of the corresponding same-letter axis, with traces
+            and axes visible for both axes. If False, this axis
+            does not overlay any same-letter axes. In this case,
+            for axes with overlapping domains only the highest-
+            numbered axis will be visible.
+        position
+            Sets the position of this axis in the plotting space
+            (in normalized coordinates). Only has an effect if
+            `anchor` is set to "free".
+        range
+            Sets the range of this axis. If the axis `type` is
+            "log", then you must take the log of your desired range
+            (e.g. to set the range from 1 to 100, set the range
+            from 0 to 2). If the axis `type` is "date", it should
+            be date strings, like date data, though Date objects
+            and unix milliseconds will be accepted and converted to
+            strings. If the axis `type` is "category", it should be
+            numbers, using the scale where each category is
+            assigned a serial number from zero in the order it
+            appears.
+        rangebreaks
+            A tuple of
+            :class:`plotly.graph_objects.layout.xaxis.Rangebreak`
+            instances or dicts with compatible properties
+        rangebreakdefaults
+            When used in a template (as
+            layout.template.layout.xaxis.rangebreakdefaults), sets
+            the default property values to use for elements of
+            layout.xaxis.rangebreaks
+        rangemode
+            If "normal", the range is computed in relation to the
+            extrema of the input data. If *tozero*`, the range
+            extends to 0, regardless of the input data If
+            "nonnegative", the range is non-negative, regardless of
+            the input data. Applies only to linear axes.
+        rangeselector
+            :class:`plotly.graph_objects.layout.xaxis.Rangeselector
+            ` instance or dict with compatible properties
+        rangeslider
+            :class:`plotly.graph_objects.layout.xaxis.Rangeslider`
+            instance or dict with compatible properties
+        scaleanchor
+            If set to another axis id (e.g. `x2`, `y`), the range
+            of this axis changes together with the range of the
+            corresponding axis such that the scale of pixels per
+            unit is in a constant ratio. Both axes are still
+            zoomable, but when you zoom one, the other will zoom
+            the same amount, keeping a fixed midpoint. `constrain`
+            and `constraintoward` determine how we enforce the
+            constraint. You can chain these, ie `yaxis:
+            {scaleanchor: *x*}, xaxis2: {scaleanchor: *y*}` but you
+            can only link axes of the same `type`. The linked axis
+            can have the opposite letter (to constrain the aspect
+            ratio) or the same letter (to match scales across
+            subplots). Loops (`yaxis: {scaleanchor: *x*}, xaxis:
+            {scaleanchor: *y*}` or longer) are redundant and the
+            last constraint encountered will be ignored to avoid
+            possible inconsistent constraints via `scaleratio`.
+            Note that setting axes simultaneously in both a
+            `scaleanchor` and a `matches` constraint is currently
+            forbidden.
+        scaleratio
+            If this axis is linked to another by `scaleanchor`,
+            this determines the pixel to unit scale ratio. For
+            example, if this value is 10, then every unit on this
+            axis spans 10 times the number of pixels as a unit on
+            the linked axis. Use this for example to create an
+            elevation profile where the vertical scale is
+            exaggerated a fixed amount with respect to the
+            horizontal.
+        separatethousands
+            If "true", even 4-digit integers are separated
+        showdividers
+            Determines whether or not a dividers are drawn between
+            the category levels of this axis. Only has an effect on
+            "multicategory" axes.
+        showexponent
+            If "all", all exponents are shown besides their
+            significands. If "first", only the exponent of the
+            first tick is shown. If "last", only the exponent of
+            the last tick is shown. If "none", no exponents appear.
+        showgrid
+            Determines whether or not grid lines are drawn. If
+            True, the grid lines are drawn at every tick mark.
+        showline
+            Determines whether or not a line bounding this axis is
+            drawn.
+        showspikes
+            Determines whether or not spikes (aka droplines) are
+            drawn for this axis. Note: This only takes affect when
+            hovermode = closest
+        showticklabels
+            Determines whether or not the tick labels are drawn.
+        showtickprefix
+            If "all", all tick labels are displayed with a prefix.
+            If "first", only the first tick is displayed with a
+            prefix. If "last", only the last tick is displayed with
+            a suffix. If "none", tick prefixes are hidden.
+        showticksuffix
+            Same as `showtickprefix` but for tick suffixes.
+        side
+            Determines whether a x (y) axis is positioned at the
+            "bottom" ("left") or "top" ("right") of the plotting
+            area.
+        spikecolor
+            Sets the spike color. If undefined, will use the series
+            color
+        spikedash
+            Sets the dash style of lines. Set to a dash type string
+            ("solid", "dot", "dash", "longdash", "dashdot", or
+            "longdashdot") or a dash length list in px (eg
+            "5px,10px,2px,2px").
+        spikemode
+            Determines the drawing mode for the spike line If
+            "toaxis", the line is drawn from the data point to the
+            axis the  series is plotted on. If "across", the line
+            is drawn across the entire plot area, and supercedes
+            "toaxis". If "marker", then a marker dot is drawn on
+            the axis the series is plotted on
+        spikesnap
+            Determines whether spikelines are stuck to the cursor
+            or to the closest datapoints.
+        spikethickness
+            Sets the width (in px) of the zero line.
+        tick0
+            Sets the placement of the first tick on this axis. Use
+            with `dtick`. If the axis `type` is "log", then you
+            must take the log of your starting tick (e.g. to set
+            the starting tick to 100, set the `tick0` to 2) except
+            when `dtick`=*L<f>* (see `dtick` for more info). If the
+            axis `type` is "date", it should be a date string, like
+            date data. If the axis `type` is "category", it should
+            be a number, using the scale where each category is
+            assigned a serial number from zero in the order it
+            appears.
+        tickangle
+            Sets the angle of the tick labels with respect to the
+            horizontal. For example, a `tickangle` of -90 draws the
+            tick labels vertically.
+        tickcolor
+            Sets the tick color.
+        tickfont
+            Sets the tick font.
+        tickformat
+            Sets the tick label formatting rule using d3 formatting
+            mini-languages which are very similar to those in
+            Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display "09~15~23.46"
+        tickformatstops
+            A tuple of :class:`plotly.graph_objects.layout.xaxis.Ti
+            ckformatstop` instances or dicts with compatible
+            properties
+        tickformatstopdefaults
+            When used in a template (as
+            layout.template.layout.xaxis.tickformatstopdefaults),
+            sets the default property values to use for elements of
+            layout.xaxis.tickformatstops
+        ticklabelmode
+            Determines where tick labels are drawn with respect to
+            their corresponding ticks and grid lines. Only has an
+            effect for axes of `type` "date" When set to "period",
+            tick labels are drawn in the middle of the period
+            between ticks.
+        ticklabeloverflow
+            Determines how we handle tick labels that would
+            overflow either the graph div or the domain of the
+            axis. The default value for inside tick labels is *hide
+            past domain*. Otherwise on "category" and
+            "multicategory" axes the default is "allow". In other
+            cases the default is *hide past div*.
+        ticklabelposition
+            Determines where tick labels are drawn with respect to
+            the axis Please note that top or bottom has no effect
+            on x axes or when `ticklabelmode` is set to "period".
+            Similarly left or right has no effect on y axes or when
+            `ticklabelmode` is set to "period". Has no effect on
+            "multicategory" axes or when `tickson` is set to
+            "boundaries". When used on axes linked by `matches` or
+            `scaleanchor`, no extra padding for inside labels would
+            be added by autorange, so that the scales could match.
+        ticklabelstep
+            Sets the spacing between tick labels as compared to the
+            spacing between ticks. A value of 1 (default) means
+            each tick gets a label. A value of 2 means shows every
+            2nd label. A larger value n means only every nth tick
+            is labeled. `tick0` determines which labels are shown.
+            Not implemented for axes with `type` "log" or
+            "multicategory", or when `tickmode` is "array".
+        ticklen
+            Sets the tick length (in px).
+        tickmode
+            Sets the tick mode for this axis. If "auto", the number
+            of ticks is set via `nticks`. If "linear", the
+            placement of the ticks is determined by a starting
+            position `tick0` and a tick step `dtick` ("linear" is
+            the default value if `tick0` and `dtick` are provided).
+            If "array", the placement of the ticks is set via
+            `tickvals` and the tick text is `ticktext`. ("array" is
+            the default value if `tickvals` is provided).
+        tickprefix
+            Sets a tick label prefix.
+        ticks
+            Determines whether ticks are drawn or not. If "", this
+            axis' ticks are not drawn. If "outside" ("inside"),
+            this axis' are drawn outside (inside) the axis lines.
+        tickson
+            Determines where ticks and grid lines are drawn with
+            respect to their corresponding tick labels. Only has an
+            effect for axes of `type` "category" or
+            "multicategory". When set to "boundaries", ticks and
+            grid lines are drawn half a category to the left/bottom
+            of labels.
+        ticksuffix
+            Sets a tick label suffix.
+        ticktext
+            Sets the text displayed at the ticks position via
+            `tickvals`. Only has an effect if `tickmode` is set to
+            "array". Used with `tickvals`.
+        ticktextsrc
+            Sets the source reference on Chart Studio Cloud for
+            `ticktext`.
+        tickvals
+            Sets the values at which ticks on this axis appear.
+            Only has an effect if `tickmode` is set to "array".
+            Used with `ticktext`.
+        tickvalssrc
+            Sets the source reference on Chart Studio Cloud for
+            `tickvals`.
+        tickwidth
+            Sets the tick width (in px).
+        title
+            :class:`plotly.graph_objects.layout.xaxis.Title`
+            instance or dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.xaxis.title.font instead.
+            Sets this axis' title font. Note that the title's font
+            used to be customized by the now deprecated `titlefont`
+            attribute.
+        type
+            Sets the axis type. By default, plotly attempts to
+            determined the axis type by looking into the data of
+            the traces that referenced the axis in question.
+        uirevision
+            Controls persistence of user-driven changes in axis
+            `range`, `autorange`, and `title` if in `editable:
+            true` configuration. Defaults to `layout.uirevision`.
+        visible
+            A single toggle to hide the axis while preserving
+            interaction like dragging. Default is true when a
+            cheater plot is present on the axis, otherwise false
+        zeroline
+            Determines whether or not a line is drawn at along the
+            0 value of this axis. If True, the zero line is drawn
+            on top of the grid lines.
+        zerolinecolor
+            Sets the line color of the zero line.
+        zerolinewidth
+            Sets the width (in px) of the zero line.
+        
+Did you mean "layer"?
+
+Bad property path:
+xaxis
+^^^^^
+04-06-2022 09:13:09 : ERROR : dashboard : candlestick : 100 : (Process Details : (11808, MainProcess), Thread Details : (1408, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.Layout: 'row'
+
+Did you mean "font"?
+
+    Valid properties:
+        activeshape
+            :class:`plotly.graph_objects.layout.Activeshape`
+            instance or dict with compatible properties
+        annotations
+            A tuple of
+            :class:`plotly.graph_objects.layout.Annotation`
+            instances or dicts with compatible properties
+        annotationdefaults
+            When used in a template (as
+            layout.template.layout.annotationdefaults), sets the
+            default property values to use for elements of
+            layout.annotations
+        autosize
+            Determines whether or not a layout width or height that
+            has been left undefined by the user is initialized on
+            each relayout. Note that, regardless of this attribute,
+            an undefined layout width or height is always
+            initialized on the first call to plot.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. This is the default
+            value; however it could be overridden for individual
+            axes.
+        bargap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        bargroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        barmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "relative", the bars
+            are stacked on top of one another, with negative values
+            below the axis, positive values above With "group", the
+            bars are plotted next to one another centered around
+            the shared location. With "overlay", the bars are
+            plotted over one another, you might need to an
+            "opacity" to see multiple bars.
+        barnorm
+            Sets the normalization for bar traces on the graph.
+            With "fraction", the value of each bar is divided by
+            the sum of all values at that location coordinate.
+            "percent" is the same but multiplied by 100 to show
+            percentages.
+        boxgap
+            Sets the gap (in plot fraction) between boxes of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        boxgroupgap
+            Sets the gap (in plot fraction) between boxes of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        boxmode
+            Determines how boxes at the same location coordinate
+            are displayed on the graph. If "group", the boxes are
+            plotted next to one another centered around the shared
+            location. If "overlay", the boxes are plotted over one
+            another, you might need to set "opacity" to see them
+            multiple boxes. Has no effect on traces that have
+            "width" set.
+        calendar
+            Sets the default calendar system to use for
+            interpreting and displaying dates throughout the plot.
+        clickmode
+            Determines the mode of single click interactions.
+            "event" is the default value and emits the
+            `plotly_click` event. In addition this mode emits the
+            `plotly_selected` event in drag modes "lasso" and
+            "select", but with no event data attached (kept for
+            compatibility reasons). The "select" flag enables
+            selecting single data points via click. This mode also
+            supports persistent selections, meaning that pressing
+            Shift while clicking, adds to / subtracts from an
+            existing selection. "select" with `hovermode`: "x" can
+            be confusing, consider explicitly setting `hovermode`:
+            "closest" when using this feature. Selection events are
+            sent accordingly as long as "event" flag is set as
+            well. When the "event" flag is missing, `plotly_click`
+            and `plotly_selected` events are not fired.
+        coloraxis
+            :class:`plotly.graph_objects.layout.Coloraxis` instance
+            or dict with compatible properties
+        colorscale
+            :class:`plotly.graph_objects.layout.Colorscale`
+            instance or dict with compatible properties
+        colorway
+            Sets the default trace colors.
+        computed
+            Placeholder for exporting automargin-impacting values
+            namely `margin.t`, `margin.b`, `margin.l` and
+            `margin.r` in "full-json" mode.
+        datarevision
+            If provided, a changed value tells `Plotly.react` that
+            one or more data arrays has changed. This way you can
+            modify arrays in-place rather than making a complete
+            new copy for an incremental change. If NOT provided,
+            `Plotly.react` assumes that data arrays are being
+            treated as immutable, thus any data array with a
+            different identity from its predecessor contains new
+            data.
+        dragmode
+            Determines the mode of drag interactions. "select" and
+            "lasso" apply only to scatter traces with markers or
+            text. "orbit" and "turntable" apply only to 3D scenes.
+        editrevision
+            Controls persistence of user-driven changes in
+            `editable: true` configuration, other than trace names
+            and axis titles. Defaults to `layout.uirevision`.
+        extendfunnelareacolors
+            If `true`, the funnelarea slice colors (whether given
+            by `funnelareacolorway` or inherited from `colorway`)
+            will be extended to three times its original length by
+            first repeating every color 20% lighter then each color
+            20% darker. This is intended to reduce the likelihood
+            of reusing the same color when you have many slices,
+            but you can set `false` to disable. Colors provided in
+            the trace, using `marker.colors`, are never extended.
+        extendiciclecolors
+            If `true`, the icicle slice colors (whether given by
+            `iciclecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendpiecolors
+            If `true`, the pie slice colors (whether given by
+            `piecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendsunburstcolors
+            If `true`, the sunburst slice colors (whether given by
+            `sunburstcolorway` or inherited from `colorway`) will
+            be extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendtreemapcolors
+            If `true`, the treemap slice colors (whether given by
+            `treemapcolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        font
+            Sets the global font. Note that fonts used in traces
+            and other layout components inherit from the global
+            font.
+        funnelareacolorway
+            Sets the default funnelarea slice colors. Defaults to
+            the main `colorway` used for trace colors. If you
+            specify a new list here it can still be extended with
+            lighter and darker colors, see
+            `extendfunnelareacolors`.
+        funnelgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        funnelgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        funnelmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "group", the bars
+            are plotted next to one another centered around the
+            shared location. With "overlay", the bars are plotted
+            over one another, you might need to an "opacity" to see
+            multiple bars.
+        geo
+            :class:`plotly.graph_objects.layout.Geo` instance or
+            dict with compatible properties
+        grid
+            :class:`plotly.graph_objects.layout.Grid` instance or
+            dict with compatible properties
+        height
+            Sets the plot's height (in px).
+        hiddenlabels
+            hiddenlabels is the funnelarea & pie chart analog of
+            visible:'legendonly' but it can contain many labels,
+            and can simultaneously hide slices from several
+            pies/funnelarea charts
+        hiddenlabelssrc
+            Sets the source reference on Chart Studio Cloud for
+            `hiddenlabels`.
+        hidesources
+            Determines whether or not a text link citing the data
+            source is placed at the bottom-right cored of the
+            figure. Has only an effect only on graphs that have
+            been generated via forked graphs from the Chart Studio
+            Cloud (at https://chart-studio.plotly.com or on-
+            premise).
+        hoverdistance
+            Sets the default distance (in pixels) to look for data
+            to add hover labels (-1 means no cutoff, 0 means no
+            looking for data). This is only a real distance for
+            hovering on point-like objects, like scatter points.
+            For area-like objects (bars, scatter fills, etc)
+            hovering is on inside the area and off outside, but
+            these objects will not supersede hover on point-like
+            objects in case of conflict.
+        hoverlabel
+            :class:`plotly.graph_objects.layout.Hoverlabel`
+            instance or dict with compatible properties
+        hovermode
+            Determines the mode of hover interactions. If
+            "closest", a single hoverlabel will appear for the
+            "closest" point within the `hoverdistance`. If "x" (or
+            "y"), multiple hoverlabels will appear for multiple
+            points at the "closest" x- (or y-) coordinate within
+            the `hoverdistance`, with the caveat that no more than
+            one hoverlabel will appear per trace. If *x unified*
+            (or *y unified*), a single hoverlabel will appear
+            multiple points at the closest x- (or y-) coordinate
+            within the `hoverdistance` with the caveat that no more
+            than one hoverlabel will appear per trace. In this
+            mode, spikelines are enabled by default perpendicular
+            to the specified axis. If false, hover interactions are
+            disabled.
+        iciclecolorway
+            Sets the default icicle slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendiciclecolors`.
+        images
+            A tuple of :class:`plotly.graph_objects.layout.Image`
+            instances or dicts with compatible properties
+        imagedefaults
+            When used in a template (as
+            layout.template.layout.imagedefaults), sets the default
+            property values to use for elements of layout.images
+        legend
+            :class:`plotly.graph_objects.layout.Legend` instance or
+            dict with compatible properties
+        mapbox
+            :class:`plotly.graph_objects.layout.Mapbox` instance or
+            dict with compatible properties
+        margin
+            :class:`plotly.graph_objects.layout.Margin` instance or
+            dict with compatible properties
+        meta
+            Assigns extra meta information that can be used in
+            various `text` attributes. Attributes such as the
+            graph, axis and colorbar `title.text`, annotation
+            `text` `trace.name` in legend items, `rangeselector`,
+            `updatemenus` and `sliders` `label` text all support
+            `meta`. One can access `meta` fields using template
+            strings: `%{meta[i]}` where `i` is the index of the
+            `meta` item in question. `meta` can also be an object
+            for example `{key: value}` which can be accessed
+            %{meta[key]}.
+        metasrc
+            Sets the source reference on Chart Studio Cloud for
+            `meta`.
+        modebar
+            :class:`plotly.graph_objects.layout.Modebar` instance
+            or dict with compatible properties
+        newshape
+            :class:`plotly.graph_objects.layout.Newshape` instance
+            or dict with compatible properties
+        paper_bgcolor
+            Sets the background color of the paper where the graph
+            is drawn.
+        piecolorway
+            Sets the default pie slice colors. Defaults to the main
+            `colorway` used for trace colors. If you specify a new
+            list here it can still be extended with lighter and
+            darker colors, see `extendpiecolors`.
+        plot_bgcolor
+            Sets the background color of the plotting area in-
+            between x and y axes.
+        polar
+            :class:`plotly.graph_objects.layout.Polar` instance or
+            dict with compatible properties
+        scene
+            :class:`plotly.graph_objects.layout.Scene` instance or
+            dict with compatible properties
+        selectdirection
+            When `dragmode` is set to "select", this limits the
+            selection of the drag to horizontal, vertical or
+            diagonal. "h" only allows horizontal selection, "v"
+            only vertical, "d" only diagonal and "any" sets no
+            limit.
+        selectionrevision
+            Controls persistence of user-driven changes in selected
+            points from all traces.
+        separators
+            Sets the decimal and thousand separators. For example,
+            *. * puts a '.' before decimals and a space between
+            thousands. In English locales, dflt is ".," but other
+            locales may alter this default.
+        shapes
+            A tuple of :class:`plotly.graph_objects.layout.Shape`
+            instances or dicts with compatible properties
+        shapedefaults
+            When used in a template (as
+            layout.template.layout.shapedefaults), sets the default
+            property values to use for elements of layout.shapes
+        showlegend
+            Determines whether or not a legend is drawn. Default is
+            `true` if there is a trace to show and any of these: a)
+            Two or more traces would by default be shown in the
+            legend. b) One pie trace is shown in the legend. c) One
+            trace is explicitly given with `showlegend: true`.
+        sliders
+            A tuple of :class:`plotly.graph_objects.layout.Slider`
+            instances or dicts with compatible properties
+        sliderdefaults
+            When used in a template (as
+            layout.template.layout.sliderdefaults), sets the
+            default property values to use for elements of
+            layout.sliders
+        smith
+            :class:`plotly.graph_objects.layout.Smith` instance or
+            dict with compatible properties
+        spikedistance
+            Sets the default distance (in pixels) to look for data
+            to draw spikelines to (-1 means no cutoff, 0 means no
+            looking for data). As with hoverdistance, distance does
+            not apply to area-like objects. In addition, some
+            objects can be hovered on but will not generate
+            spikelines, such as scatter fills.
+        sunburstcolorway
+            Sets the default sunburst slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendsunburstcolors`.
+        template
+            Default attributes to be applied to the plot. This
+            should be a dict with format: `{'layout':
+            layoutTemplate, 'data': {trace_type: [traceTemplate,
+            ...], ...}}` where `layoutTemplate` is a dict matching
+            the structure of `figure.layout` and `traceTemplate` is
+            a dict matching the structure of the trace with type
+            `trace_type` (e.g. 'scatter'). Alternatively, this may
+            be specified as an instance of
+            plotly.graph_objs.layout.Template.  Trace templates are
+            applied cyclically to traces of each type. Container
+            arrays (eg `annotations`) have special handling: An
+            object ending in `defaults` (eg `annotationdefaults`)
+            is applied to each array item. But if an item has a
+            `templateitemname` key we look in the template array
+            for an item with matching `name` and apply that
+            instead. If no matching `name` is found we mark the
+            item invisible. Any named template item not referenced
+            is appended to the end of the array, so this can be
+            used to add a watermark annotation or a logo image, for
+            example. To omit one of these items on the plot, make
+            an item with matching `templateitemname` and `visible:
+            false`.
+        ternary
+            :class:`plotly.graph_objects.layout.Ternary` instance
+            or dict with compatible properties
+        title
+            :class:`plotly.graph_objects.layout.Title` instance or
+            dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.title.font instead. Sets
+            the title font. Note that the title's font used to be
+            customized by the now deprecated `titlefont` attribute.
+        transition
+            Sets transition options used during Plotly.react
+            updates.
+        treemapcolorway
+            Sets the default treemap slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendtreemapcolors`.
+        uirevision
+            Used to allow user interactions with the plot to
+            persist after `Plotly.react` calls that are unaware of
+            these interactions. If `uirevision` is omitted, or if
+            it is given and it changed from the previous
+            `Plotly.react` call, the exact new figure is used. If
+            `uirevision` is truthy and did NOT change, any
+            attribute that has been affected by user interactions
+            and did not receive a different value in the new figure
+            will keep the interaction value. `layout.uirevision`
+            attribute serves as the default for `uirevision`
+            attributes in various sub-containers. For finer control
+            you can set these sub-attributes directly. For example,
+            if your app separately controls the data on the x and y
+            axes you might set `xaxis.uirevision=*time*` and
+            `yaxis.uirevision=*cost*`. Then if only the y data is
+            changed, you can update `yaxis.uirevision=*quantity*`
+            and the y axis range will reset but the x axis range
+            will retain any user-driven zoom.
+        uniformtext
+            :class:`plotly.graph_objects.layout.Uniformtext`
+            instance or dict with compatible properties
+        updatemenus
+            A tuple of
+            :class:`plotly.graph_objects.layout.Updatemenu`
+            instances or dicts with compatible properties
+        updatemenudefaults
+            When used in a template (as
+            layout.template.layout.updatemenudefaults), sets the
+            default property values to use for elements of
+            layout.updatemenus
+        violingap
+            Sets the gap (in plot fraction) between violins of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        violingroupgap
+            Sets the gap (in plot fraction) between violins of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        violinmode
+            Determines how violins at the same location coordinate
+            are displayed on the graph. If "group", the violins are
+            plotted next to one another centered around the shared
+            location. If "overlay", the violins are plotted over
+            one another, you might need to set "opacity" to see
+            them multiple violins. Has no effect on traces that
+            have "width" set.
+        waterfallgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        waterfallgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        waterfallmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "group", the bars are
+            plotted next to one another centered around the shared
+            location. With "overlay", the bars are plotted over one
+            another, you might need to an "opacity" to see multiple
+            bars.
+        width
+            Sets the plot's width (in px).
+        xaxis
+            :class:`plotly.graph_objects.layout.XAxis` instance or
+            dict with compatible properties
+        yaxis
+            :class:`plotly.graph_objects.layout.YAxis` instance or
+            dict with compatible properties
+        
+Did you mean "font"?
+
+Bad property path:
+row
+^^^
+04-06-2022 09:15:18 : ERROR : dashboard : candlestick : 100 : (Process Details : (11808, MainProcess), Thread Details : (26488, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.Layout: 'row'
+
+Did you mean "font"?
+
+    Valid properties:
+        activeshape
+            :class:`plotly.graph_objects.layout.Activeshape`
+            instance or dict with compatible properties
+        annotations
+            A tuple of
+            :class:`plotly.graph_objects.layout.Annotation`
+            instances or dicts with compatible properties
+        annotationdefaults
+            When used in a template (as
+            layout.template.layout.annotationdefaults), sets the
+            default property values to use for elements of
+            layout.annotations
+        autosize
+            Determines whether or not a layout width or height that
+            has been left undefined by the user is initialized on
+            each relayout. Note that, regardless of this attribute,
+            an undefined layout width or height is always
+            initialized on the first call to plot.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. This is the default
+            value; however it could be overridden for individual
+            axes.
+        bargap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        bargroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        barmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "relative", the bars
+            are stacked on top of one another, with negative values
+            below the axis, positive values above With "group", the
+            bars are plotted next to one another centered around
+            the shared location. With "overlay", the bars are
+            plotted over one another, you might need to an
+            "opacity" to see multiple bars.
+        barnorm
+            Sets the normalization for bar traces on the graph.
+            With "fraction", the value of each bar is divided by
+            the sum of all values at that location coordinate.
+            "percent" is the same but multiplied by 100 to show
+            percentages.
+        boxgap
+            Sets the gap (in plot fraction) between boxes of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        boxgroupgap
+            Sets the gap (in plot fraction) between boxes of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        boxmode
+            Determines how boxes at the same location coordinate
+            are displayed on the graph. If "group", the boxes are
+            plotted next to one another centered around the shared
+            location. If "overlay", the boxes are plotted over one
+            another, you might need to set "opacity" to see them
+            multiple boxes. Has no effect on traces that have
+            "width" set.
+        calendar
+            Sets the default calendar system to use for
+            interpreting and displaying dates throughout the plot.
+        clickmode
+            Determines the mode of single click interactions.
+            "event" is the default value and emits the
+            `plotly_click` event. In addition this mode emits the
+            `plotly_selected` event in drag modes "lasso" and
+            "select", but with no event data attached (kept for
+            compatibility reasons). The "select" flag enables
+            selecting single data points via click. This mode also
+            supports persistent selections, meaning that pressing
+            Shift while clicking, adds to / subtracts from an
+            existing selection. "select" with `hovermode`: "x" can
+            be confusing, consider explicitly setting `hovermode`:
+            "closest" when using this feature. Selection events are
+            sent accordingly as long as "event" flag is set as
+            well. When the "event" flag is missing, `plotly_click`
+            and `plotly_selected` events are not fired.
+        coloraxis
+            :class:`plotly.graph_objects.layout.Coloraxis` instance
+            or dict with compatible properties
+        colorscale
+            :class:`plotly.graph_objects.layout.Colorscale`
+            instance or dict with compatible properties
+        colorway
+            Sets the default trace colors.
+        computed
+            Placeholder for exporting automargin-impacting values
+            namely `margin.t`, `margin.b`, `margin.l` and
+            `margin.r` in "full-json" mode.
+        datarevision
+            If provided, a changed value tells `Plotly.react` that
+            one or more data arrays has changed. This way you can
+            modify arrays in-place rather than making a complete
+            new copy for an incremental change. If NOT provided,
+            `Plotly.react` assumes that data arrays are being
+            treated as immutable, thus any data array with a
+            different identity from its predecessor contains new
+            data.
+        dragmode
+            Determines the mode of drag interactions. "select" and
+            "lasso" apply only to scatter traces with markers or
+            text. "orbit" and "turntable" apply only to 3D scenes.
+        editrevision
+            Controls persistence of user-driven changes in
+            `editable: true` configuration, other than trace names
+            and axis titles. Defaults to `layout.uirevision`.
+        extendfunnelareacolors
+            If `true`, the funnelarea slice colors (whether given
+            by `funnelareacolorway` or inherited from `colorway`)
+            will be extended to three times its original length by
+            first repeating every color 20% lighter then each color
+            20% darker. This is intended to reduce the likelihood
+            of reusing the same color when you have many slices,
+            but you can set `false` to disable. Colors provided in
+            the trace, using `marker.colors`, are never extended.
+        extendiciclecolors
+            If `true`, the icicle slice colors (whether given by
+            `iciclecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendpiecolors
+            If `true`, the pie slice colors (whether given by
+            `piecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendsunburstcolors
+            If `true`, the sunburst slice colors (whether given by
+            `sunburstcolorway` or inherited from `colorway`) will
+            be extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendtreemapcolors
+            If `true`, the treemap slice colors (whether given by
+            `treemapcolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        font
+            Sets the global font. Note that fonts used in traces
+            and other layout components inherit from the global
+            font.
+        funnelareacolorway
+            Sets the default funnelarea slice colors. Defaults to
+            the main `colorway` used for trace colors. If you
+            specify a new list here it can still be extended with
+            lighter and darker colors, see
+            `extendfunnelareacolors`.
+        funnelgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        funnelgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        funnelmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "group", the bars
+            are plotted next to one another centered around the
+            shared location. With "overlay", the bars are plotted
+            over one another, you might need to an "opacity" to see
+            multiple bars.
+        geo
+            :class:`plotly.graph_objects.layout.Geo` instance or
+            dict with compatible properties
+        grid
+            :class:`plotly.graph_objects.layout.Grid` instance or
+            dict with compatible properties
+        height
+            Sets the plot's height (in px).
+        hiddenlabels
+            hiddenlabels is the funnelarea & pie chart analog of
+            visible:'legendonly' but it can contain many labels,
+            and can simultaneously hide slices from several
+            pies/funnelarea charts
+        hiddenlabelssrc
+            Sets the source reference on Chart Studio Cloud for
+            `hiddenlabels`.
+        hidesources
+            Determines whether or not a text link citing the data
+            source is placed at the bottom-right cored of the
+            figure. Has only an effect only on graphs that have
+            been generated via forked graphs from the Chart Studio
+            Cloud (at https://chart-studio.plotly.com or on-
+            premise).
+        hoverdistance
+            Sets the default distance (in pixels) to look for data
+            to add hover labels (-1 means no cutoff, 0 means no
+            looking for data). This is only a real distance for
+            hovering on point-like objects, like scatter points.
+            For area-like objects (bars, scatter fills, etc)
+            hovering is on inside the area and off outside, but
+            these objects will not supersede hover on point-like
+            objects in case of conflict.
+        hoverlabel
+            :class:`plotly.graph_objects.layout.Hoverlabel`
+            instance or dict with compatible properties
+        hovermode
+            Determines the mode of hover interactions. If
+            "closest", a single hoverlabel will appear for the
+            "closest" point within the `hoverdistance`. If "x" (or
+            "y"), multiple hoverlabels will appear for multiple
+            points at the "closest" x- (or y-) coordinate within
+            the `hoverdistance`, with the caveat that no more than
+            one hoverlabel will appear per trace. If *x unified*
+            (or *y unified*), a single hoverlabel will appear
+            multiple points at the closest x- (or y-) coordinate
+            within the `hoverdistance` with the caveat that no more
+            than one hoverlabel will appear per trace. In this
+            mode, spikelines are enabled by default perpendicular
+            to the specified axis. If false, hover interactions are
+            disabled.
+        iciclecolorway
+            Sets the default icicle slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendiciclecolors`.
+        images
+            A tuple of :class:`plotly.graph_objects.layout.Image`
+            instances or dicts with compatible properties
+        imagedefaults
+            When used in a template (as
+            layout.template.layout.imagedefaults), sets the default
+            property values to use for elements of layout.images
+        legend
+            :class:`plotly.graph_objects.layout.Legend` instance or
+            dict with compatible properties
+        mapbox
+            :class:`plotly.graph_objects.layout.Mapbox` instance or
+            dict with compatible properties
+        margin
+            :class:`plotly.graph_objects.layout.Margin` instance or
+            dict with compatible properties
+        meta
+            Assigns extra meta information that can be used in
+            various `text` attributes. Attributes such as the
+            graph, axis and colorbar `title.text`, annotation
+            `text` `trace.name` in legend items, `rangeselector`,
+            `updatemenus` and `sliders` `label` text all support
+            `meta`. One can access `meta` fields using template
+            strings: `%{meta[i]}` where `i` is the index of the
+            `meta` item in question. `meta` can also be an object
+            for example `{key: value}` which can be accessed
+            %{meta[key]}.
+        metasrc
+            Sets the source reference on Chart Studio Cloud for
+            `meta`.
+        modebar
+            :class:`plotly.graph_objects.layout.Modebar` instance
+            or dict with compatible properties
+        newshape
+            :class:`plotly.graph_objects.layout.Newshape` instance
+            or dict with compatible properties
+        paper_bgcolor
+            Sets the background color of the paper where the graph
+            is drawn.
+        piecolorway
+            Sets the default pie slice colors. Defaults to the main
+            `colorway` used for trace colors. If you specify a new
+            list here it can still be extended with lighter and
+            darker colors, see `extendpiecolors`.
+        plot_bgcolor
+            Sets the background color of the plotting area in-
+            between x and y axes.
+        polar
+            :class:`plotly.graph_objects.layout.Polar` instance or
+            dict with compatible properties
+        scene
+            :class:`plotly.graph_objects.layout.Scene` instance or
+            dict with compatible properties
+        selectdirection
+            When `dragmode` is set to "select", this limits the
+            selection of the drag to horizontal, vertical or
+            diagonal. "h" only allows horizontal selection, "v"
+            only vertical, "d" only diagonal and "any" sets no
+            limit.
+        selectionrevision
+            Controls persistence of user-driven changes in selected
+            points from all traces.
+        separators
+            Sets the decimal and thousand separators. For example,
+            *. * puts a '.' before decimals and a space between
+            thousands. In English locales, dflt is ".," but other
+            locales may alter this default.
+        shapes
+            A tuple of :class:`plotly.graph_objects.layout.Shape`
+            instances or dicts with compatible properties
+        shapedefaults
+            When used in a template (as
+            layout.template.layout.shapedefaults), sets the default
+            property values to use for elements of layout.shapes
+        showlegend
+            Determines whether or not a legend is drawn. Default is
+            `true` if there is a trace to show and any of these: a)
+            Two or more traces would by default be shown in the
+            legend. b) One pie trace is shown in the legend. c) One
+            trace is explicitly given with `showlegend: true`.
+        sliders
+            A tuple of :class:`plotly.graph_objects.layout.Slider`
+            instances or dicts with compatible properties
+        sliderdefaults
+            When used in a template (as
+            layout.template.layout.sliderdefaults), sets the
+            default property values to use for elements of
+            layout.sliders
+        smith
+            :class:`plotly.graph_objects.layout.Smith` instance or
+            dict with compatible properties
+        spikedistance
+            Sets the default distance (in pixels) to look for data
+            to draw spikelines to (-1 means no cutoff, 0 means no
+            looking for data). As with hoverdistance, distance does
+            not apply to area-like objects. In addition, some
+            objects can be hovered on but will not generate
+            spikelines, such as scatter fills.
+        sunburstcolorway
+            Sets the default sunburst slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendsunburstcolors`.
+        template
+            Default attributes to be applied to the plot. This
+            should be a dict with format: `{'layout':
+            layoutTemplate, 'data': {trace_type: [traceTemplate,
+            ...], ...}}` where `layoutTemplate` is a dict matching
+            the structure of `figure.layout` and `traceTemplate` is
+            a dict matching the structure of the trace with type
+            `trace_type` (e.g. 'scatter'). Alternatively, this may
+            be specified as an instance of
+            plotly.graph_objs.layout.Template.  Trace templates are
+            applied cyclically to traces of each type. Container
+            arrays (eg `annotations`) have special handling: An
+            object ending in `defaults` (eg `annotationdefaults`)
+            is applied to each array item. But if an item has a
+            `templateitemname` key we look in the template array
+            for an item with matching `name` and apply that
+            instead. If no matching `name` is found we mark the
+            item invisible. Any named template item not referenced
+            is appended to the end of the array, so this can be
+            used to add a watermark annotation or a logo image, for
+            example. To omit one of these items on the plot, make
+            an item with matching `templateitemname` and `visible:
+            false`.
+        ternary
+            :class:`plotly.graph_objects.layout.Ternary` instance
+            or dict with compatible properties
+        title
+            :class:`plotly.graph_objects.layout.Title` instance or
+            dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.title.font instead. Sets
+            the title font. Note that the title's font used to be
+            customized by the now deprecated `titlefont` attribute.
+        transition
+            Sets transition options used during Plotly.react
+            updates.
+        treemapcolorway
+            Sets the default treemap slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendtreemapcolors`.
+        uirevision
+            Used to allow user interactions with the plot to
+            persist after `Plotly.react` calls that are unaware of
+            these interactions. If `uirevision` is omitted, or if
+            it is given and it changed from the previous
+            `Plotly.react` call, the exact new figure is used. If
+            `uirevision` is truthy and did NOT change, any
+            attribute that has been affected by user interactions
+            and did not receive a different value in the new figure
+            will keep the interaction value. `layout.uirevision`
+            attribute serves as the default for `uirevision`
+            attributes in various sub-containers. For finer control
+            you can set these sub-attributes directly. For example,
+            if your app separately controls the data on the x and y
+            axes you might set `xaxis.uirevision=*time*` and
+            `yaxis.uirevision=*cost*`. Then if only the y data is
+            changed, you can update `yaxis.uirevision=*quantity*`
+            and the y axis range will reset but the x axis range
+            will retain any user-driven zoom.
+        uniformtext
+            :class:`plotly.graph_objects.layout.Uniformtext`
+            instance or dict with compatible properties
+        updatemenus
+            A tuple of
+            :class:`plotly.graph_objects.layout.Updatemenu`
+            instances or dicts with compatible properties
+        updatemenudefaults
+            When used in a template (as
+            layout.template.layout.updatemenudefaults), sets the
+            default property values to use for elements of
+            layout.updatemenus
+        violingap
+            Sets the gap (in plot fraction) between violins of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        violingroupgap
+            Sets the gap (in plot fraction) between violins of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        violinmode
+            Determines how violins at the same location coordinate
+            are displayed on the graph. If "group", the violins are
+            plotted next to one another centered around the shared
+            location. If "overlay", the violins are plotted over
+            one another, you might need to set "opacity" to see
+            them multiple violins. Has no effect on traces that
+            have "width" set.
+        waterfallgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        waterfallgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        waterfallmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "group", the bars are
+            plotted next to one another centered around the shared
+            location. With "overlay", the bars are plotted over one
+            another, you might need to an "opacity" to see multiple
+            bars.
+        width
+            Sets the plot's width (in px).
+        xaxis
+            :class:`plotly.graph_objects.layout.XAxis` instance or
+            dict with compatible properties
+        yaxis
+            :class:`plotly.graph_objects.layout.YAxis` instance or
+            dict with compatible properties
+        
+Did you mean "font"?
+
+Bad property path:
+row
+^^^
+04-06-2022 09:16:27 : ERROR : dashboard : candlestick : 99 : (Process Details : (11808, MainProcess), Thread Details : (25588, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.layout.XAxis: 'row'
+
+Did you mean "color"?
+
+    Valid properties:
+        anchor
+            If set to an opposite-letter axis id (e.g. `x2`, `y`),
+            this axis is bound to the corresponding opposite-letter
+            axis. If set to "free", this axis' position is
+            determined by `position`.
+        automargin
+            Determines whether long tick labels automatically grow
+            the figure margins.
+        autorange
+            Determines whether or not the range of this axis is
+            computed in relation to the input data. See `rangemode`
+            for more info. If `range` is provided, then `autorange`
+            is set to False.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. Defaults to
+            layout.autotypenumbers.
+        calendar
+            Sets the calendar system to use for `range` and `tick0`
+            if this is a date axis. This does not set the calendar
+            for interpreting data on this axis, that's specified in
+            the trace or via the global `layout.calendar`
+        categoryarray
+            Sets the order in which categories on this axis appear.
+            Only has an effect if `categoryorder` is set to
+            "array". Used with `categoryorder`.
+        categoryarraysrc
+            Sets the source reference on Chart Studio Cloud for
+            `categoryarray`.
+        categoryorder
+            Specifies the ordering logic for the case of
+            categorical variables. By default, plotly uses "trace",
+            which specifies the order that is present in the data
+            supplied. Set `categoryorder` to *category ascending*
+            or *category descending* if order should be determined
+            by the alphanumerical order of the category names. Set
+            `categoryorder` to "array" to derive the ordering from
+            the attribute `categoryarray`. If a category is not
+            found in the `categoryarray` array, the sorting
+            behavior for that attribute will be identical to the
+            "trace" mode. The unspecified categories will follow
+            the categories in `categoryarray`. Set `categoryorder`
+            to *total ascending* or *total descending* if order
+            should be determined by the numerical order of the
+            values. Similarly, the order can be determined by the
+            min, max, sum, mean or median of all the values.
+        color
+            Sets default for all colors associated with this axis
+            all at once: line, font, tick, and grid colors. Grid
+            color is lightened by blending this with the plot
+            background Individual pieces can override this.
+        constrain
+            If this axis needs to be compressed (either due to its
+            own `scaleanchor` and `scaleratio` or those of the
+            other axis), determines how that happens: by increasing
+            the "range", or by decreasing the "domain". Default is
+            "domain" for axes containing image traces, "range"
+            otherwise.
+        constraintoward
+            If this axis needs to be compressed (either due to its
+            own `scaleanchor` and `scaleratio` or those of the
+            other axis), determines which direction we push the
+            originally specified plot area. Options are "left",
+            "center" (default), and "right" for x axes, and "top",
+            "middle" (default), and "bottom" for y axes.
+        dividercolor
+            Sets the color of the dividers Only has an effect on
+            "multicategory" axes.
+        dividerwidth
+            Sets the width (in px) of the dividers Only has an
+            effect on "multicategory" axes.
+        domain
+            Sets the domain of this axis (in plot fraction).
+        dtick
+            Sets the step in-between ticks on this axis. Use with
+            `tick0`. Must be a positive number, or special strings
+            available to "log" and "date" axes. If the axis `type`
+            is "log", then ticks are set every 10^(n*dtick) where n
+            is the tick number. For example, to set a tick mark at
+            1, 10, 100, 1000, ... set dtick to 1. To set tick marks
+            at 1, 100, 10000, ... set dtick to 2. To set tick marks
+            at 1, 5, 25, 125, 625, 3125, ... set dtick to
+            log_10(5), or 0.69897000433. "log" has several special
+            values; "L<f>", where `f` is a positive number, gives
+            ticks linearly spaced in value (but not position). For
+            example `tick0` = 0.1, `dtick` = "L0.5" will put ticks
+            at 0.1, 0.6, 1.1, 1.6 etc. To show powers of 10 plus
+            small digits between, use "D1" (all digits) or "D2"
+            (only 2 and 5). `tick0` is ignored for "D1" and "D2".
+            If the axis `type` is "date", then you must convert the
+            time to milliseconds. For example, to set the interval
+            between ticks to one day, set `dtick` to 86400000.0.
+            "date" also has special values "M<n>" gives ticks
+            spaced by a number of months. `n` must be a positive
+            integer. To set ticks on the 15th of every third month,
+            set `tick0` to "2000-01-15" and `dtick` to "M3". To set
+            ticks every 4 years, set `dtick` to "M48"
+        exponentformat
+            Determines a formatting rule for the tick exponents.
+            For example, consider the number 1,000,000,000. If
+            "none", it appears as 1,000,000,000. If "e", 1e+9. If
+            "E", 1E+9. If "power", 1x10^9 (with 9 in a super
+            script). If "SI", 1G. If "B", 1B.
+        fixedrange
+            Determines whether or not this axis is zoom-able. If
+            true, then zoom is disabled.
+        gridcolor
+            Sets the color of the grid lines.
+        griddash
+            Sets the dash style of lines. Set to a dash type string
+            ("solid", "dot", "dash", "longdash", "dashdot", or
+            "longdashdot") or a dash length list in px (eg
+            "5px,10px,2px,2px").
+        gridwidth
+            Sets the width (in px) of the grid lines.
+        hoverformat
+            Sets the hover text formatting rule using d3 formatting
+            mini-languages which are very similar to those in
+            Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display "09~15~23.46"
+        layer
+            Sets the layer on which this axis is displayed. If
+            *above traces*, this axis is displayed above all the
+            subplot's traces If *below traces*, this axis is
+            displayed below all the subplot's traces, but above the
+            grid lines. Useful when used together with scatter-like
+            traces with `cliponaxis` set to False to show markers
+            and/or text nodes above this axis.
+        linecolor
+            Sets the axis line color.
+        linewidth
+            Sets the width (in px) of the axis line.
+        matches
+            If set to another axis id (e.g. `x2`, `y`), the range
+            of this axis will match the range of the corresponding
+            axis in data-coordinates space. Moreover, matching axes
+            share auto-range values, category lists and histogram
+            auto-bins. Note that setting axes simultaneously in
+            both a `scaleanchor` and a `matches` constraint is
+            currently forbidden. Moreover, note that matching axes
+            must have the same `type`.
+        minexponent
+            Hide SI prefix for 10^n if |n| is below this number.
+            This only has an effect when `tickformat` is "SI" or
+            "B".
+        minor
+            :class:`plotly.graph_objects.layout.xaxis.Minor`
+            instance or dict with compatible properties
+        mirror
+            Determines if the axis lines or/and ticks are mirrored
+            to the opposite side of the plotting area. If True, the
+            axis lines are mirrored. If "ticks", the axis lines and
+            ticks are mirrored. If False, mirroring is disable. If
+            "all", axis lines are mirrored on all shared-axes
+            subplots. If "allticks", axis lines and ticks are
+            mirrored on all shared-axes subplots.
+        nticks
+            Specifies the maximum number of ticks for the
+            particular axis. The actual number of ticks will be
+            chosen automatically to be less than or equal to
+            `nticks`. Has an effect only if `tickmode` is set to
+            "auto".
+        overlaying
+            If set a same-letter axis id, this axis is overlaid on
+            top of the corresponding same-letter axis, with traces
+            and axes visible for both axes. If False, this axis
+            does not overlay any same-letter axes. In this case,
+            for axes with overlapping domains only the highest-
+            numbered axis will be visible.
+        position
+            Sets the position of this axis in the plotting space
+            (in normalized coordinates). Only has an effect if
+            `anchor` is set to "free".
+        range
+            Sets the range of this axis. If the axis `type` is
+            "log", then you must take the log of your desired range
+            (e.g. to set the range from 1 to 100, set the range
+            from 0 to 2). If the axis `type` is "date", it should
+            be date strings, like date data, though Date objects
+            and unix milliseconds will be accepted and converted to
+            strings. If the axis `type` is "category", it should be
+            numbers, using the scale where each category is
+            assigned a serial number from zero in the order it
+            appears.
+        rangebreaks
+            A tuple of
+            :class:`plotly.graph_objects.layout.xaxis.Rangebreak`
+            instances or dicts with compatible properties
+        rangebreakdefaults
+            When used in a template (as
+            layout.template.layout.xaxis.rangebreakdefaults), sets
+            the default property values to use for elements of
+            layout.xaxis.rangebreaks
+        rangemode
+            If "normal", the range is computed in relation to the
+            extrema of the input data. If *tozero*`, the range
+            extends to 0, regardless of the input data If
+            "nonnegative", the range is non-negative, regardless of
+            the input data. Applies only to linear axes.
+        rangeselector
+            :class:`plotly.graph_objects.layout.xaxis.Rangeselector
+            ` instance or dict with compatible properties
+        rangeslider
+            :class:`plotly.graph_objects.layout.xaxis.Rangeslider`
+            instance or dict with compatible properties
+        scaleanchor
+            If set to another axis id (e.g. `x2`, `y`), the range
+            of this axis changes together with the range of the
+            corresponding axis such that the scale of pixels per
+            unit is in a constant ratio. Both axes are still
+            zoomable, but when you zoom one, the other will zoom
+            the same amount, keeping a fixed midpoint. `constrain`
+            and `constraintoward` determine how we enforce the
+            constraint. You can chain these, ie `yaxis:
+            {scaleanchor: *x*}, xaxis2: {scaleanchor: *y*}` but you
+            can only link axes of the same `type`. The linked axis
+            can have the opposite letter (to constrain the aspect
+            ratio) or the same letter (to match scales across
+            subplots). Loops (`yaxis: {scaleanchor: *x*}, xaxis:
+            {scaleanchor: *y*}` or longer) are redundant and the
+            last constraint encountered will be ignored to avoid
+            possible inconsistent constraints via `scaleratio`.
+            Note that setting axes simultaneously in both a
+            `scaleanchor` and a `matches` constraint is currently
+            forbidden.
+        scaleratio
+            If this axis is linked to another by `scaleanchor`,
+            this determines the pixel to unit scale ratio. For
+            example, if this value is 10, then every unit on this
+            axis spans 10 times the number of pixels as a unit on
+            the linked axis. Use this for example to create an
+            elevation profile where the vertical scale is
+            exaggerated a fixed amount with respect to the
+            horizontal.
+        separatethousands
+            If "true", even 4-digit integers are separated
+        showdividers
+            Determines whether or not a dividers are drawn between
+            the category levels of this axis. Only has an effect on
+            "multicategory" axes.
+        showexponent
+            If "all", all exponents are shown besides their
+            significands. If "first", only the exponent of the
+            first tick is shown. If "last", only the exponent of
+            the last tick is shown. If "none", no exponents appear.
+        showgrid
+            Determines whether or not grid lines are drawn. If
+            True, the grid lines are drawn at every tick mark.
+        showline
+            Determines whether or not a line bounding this axis is
+            drawn.
+        showspikes
+            Determines whether or not spikes (aka droplines) are
+            drawn for this axis. Note: This only takes affect when
+            hovermode = closest
+        showticklabels
+            Determines whether or not the tick labels are drawn.
+        showtickprefix
+            If "all", all tick labels are displayed with a prefix.
+            If "first", only the first tick is displayed with a
+            prefix. If "last", only the last tick is displayed with
+            a suffix. If "none", tick prefixes are hidden.
+        showticksuffix
+            Same as `showtickprefix` but for tick suffixes.
+        side
+            Determines whether a x (y) axis is positioned at the
+            "bottom" ("left") or "top" ("right") of the plotting
+            area.
+        spikecolor
+            Sets the spike color. If undefined, will use the series
+            color
+        spikedash
+            Sets the dash style of lines. Set to a dash type string
+            ("solid", "dot", "dash", "longdash", "dashdot", or
+            "longdashdot") or a dash length list in px (eg
+            "5px,10px,2px,2px").
+        spikemode
+            Determines the drawing mode for the spike line If
+            "toaxis", the line is drawn from the data point to the
+            axis the  series is plotted on. If "across", the line
+            is drawn across the entire plot area, and supercedes
+            "toaxis". If "marker", then a marker dot is drawn on
+            the axis the series is plotted on
+        spikesnap
+            Determines whether spikelines are stuck to the cursor
+            or to the closest datapoints.
+        spikethickness
+            Sets the width (in px) of the zero line.
+        tick0
+            Sets the placement of the first tick on this axis. Use
+            with `dtick`. If the axis `type` is "log", then you
+            must take the log of your starting tick (e.g. to set
+            the starting tick to 100, set the `tick0` to 2) except
+            when `dtick`=*L<f>* (see `dtick` for more info). If the
+            axis `type` is "date", it should be a date string, like
+            date data. If the axis `type` is "category", it should
+            be a number, using the scale where each category is
+            assigned a serial number from zero in the order it
+            appears.
+        tickangle
+            Sets the angle of the tick labels with respect to the
+            horizontal. For example, a `tickangle` of -90 draws the
+            tick labels vertically.
+        tickcolor
+            Sets the tick color.
+        tickfont
+            Sets the tick font.
+        tickformat
+            Sets the tick label formatting rule using d3 formatting
+            mini-languages which are very similar to those in
+            Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display "09~15~23.46"
+        tickformatstops
+            A tuple of :class:`plotly.graph_objects.layout.xaxis.Ti
+            ckformatstop` instances or dicts with compatible
+            properties
+        tickformatstopdefaults
+            When used in a template (as
+            layout.template.layout.xaxis.tickformatstopdefaults),
+            sets the default property values to use for elements of
+            layout.xaxis.tickformatstops
+        ticklabelmode
+            Determines where tick labels are drawn with respect to
+            their corresponding ticks and grid lines. Only has an
+            effect for axes of `type` "date" When set to "period",
+            tick labels are drawn in the middle of the period
+            between ticks.
+        ticklabeloverflow
+            Determines how we handle tick labels that would
+            overflow either the graph div or the domain of the
+            axis. The default value for inside tick labels is *hide
+            past domain*. Otherwise on "category" and
+            "multicategory" axes the default is "allow". In other
+            cases the default is *hide past div*.
+        ticklabelposition
+            Determines where tick labels are drawn with respect to
+            the axis Please note that top or bottom has no effect
+            on x axes or when `ticklabelmode` is set to "period".
+            Similarly left or right has no effect on y axes or when
+            `ticklabelmode` is set to "period". Has no effect on
+            "multicategory" axes or when `tickson` is set to
+            "boundaries". When used on axes linked by `matches` or
+            `scaleanchor`, no extra padding for inside labels would
+            be added by autorange, so that the scales could match.
+        ticklabelstep
+            Sets the spacing between tick labels as compared to the
+            spacing between ticks. A value of 1 (default) means
+            each tick gets a label. A value of 2 means shows every
+            2nd label. A larger value n means only every nth tick
+            is labeled. `tick0` determines which labels are shown.
+            Not implemented for axes with `type` "log" or
+            "multicategory", or when `tickmode` is "array".
+        ticklen
+            Sets the tick length (in px).
+        tickmode
+            Sets the tick mode for this axis. If "auto", the number
+            of ticks is set via `nticks`. If "linear", the
+            placement of the ticks is determined by a starting
+            position `tick0` and a tick step `dtick` ("linear" is
+            the default value if `tick0` and `dtick` are provided).
+            If "array", the placement of the ticks is set via
+            `tickvals` and the tick text is `ticktext`. ("array" is
+            the default value if `tickvals` is provided).
+        tickprefix
+            Sets a tick label prefix.
+        ticks
+            Determines whether ticks are drawn or not. If "", this
+            axis' ticks are not drawn. If "outside" ("inside"),
+            this axis' are drawn outside (inside) the axis lines.
+        tickson
+            Determines where ticks and grid lines are drawn with
+            respect to their corresponding tick labels. Only has an
+            effect for axes of `type` "category" or
+            "multicategory". When set to "boundaries", ticks and
+            grid lines are drawn half a category to the left/bottom
+            of labels.
+        ticksuffix
+            Sets a tick label suffix.
+        ticktext
+            Sets the text displayed at the ticks position via
+            `tickvals`. Only has an effect if `tickmode` is set to
+            "array". Used with `tickvals`.
+        ticktextsrc
+            Sets the source reference on Chart Studio Cloud for
+            `ticktext`.
+        tickvals
+            Sets the values at which ticks on this axis appear.
+            Only has an effect if `tickmode` is set to "array".
+            Used with `ticktext`.
+        tickvalssrc
+            Sets the source reference on Chart Studio Cloud for
+            `tickvals`.
+        tickwidth
+            Sets the tick width (in px).
+        title
+            :class:`plotly.graph_objects.layout.xaxis.Title`
+            instance or dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.xaxis.title.font instead.
+            Sets this axis' title font. Note that the title's font
+            used to be customized by the now deprecated `titlefont`
+            attribute.
+        type
+            Sets the axis type. By default, plotly attempts to
+            determined the axis type by looking into the data of
+            the traces that referenced the axis in question.
+        uirevision
+            Controls persistence of user-driven changes in axis
+            `range`, `autorange`, and `title` if in `editable:
+            true` configuration. Defaults to `layout.uirevision`.
+        visible
+            A single toggle to hide the axis while preserving
+            interaction like dragging. Default is true when a
+            cheater plot is present on the axis, otherwise false
+        zeroline
+            Determines whether or not a line is drawn at along the
+            0 value of this axis. If True, the zero line is drawn
+            on top of the grid lines.
+        zerolinecolor
+            Sets the line color of the zero line.
+        zerolinewidth
+            Sets the width (in px) of the zero line.
+        
+Did you mean "color"?
+
+Bad property path:
+row
+^^^
+04-06-2022 09:21:40 : ERROR : dashboard : candlestick : 99 : (Process Details : (11808, MainProcess), Thread Details : (17992, ScriptRunner.scriptThread))\nLog : Error Type : TypeError, Error Message : make_subplots() got unexpected keyword argument(s): ['row_widths']
+04-06-2022 09:23:52 : ERROR : dashboard : candlestick : 114 : (Process Details : (11808, MainProcess), Thread Details : (5416, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.Layout: 'layout'
+
+Did you mean "font"?
+
+    Valid properties:
+        activeshape
+            :class:`plotly.graph_objects.layout.Activeshape`
+            instance or dict with compatible properties
+        annotations
+            A tuple of
+            :class:`plotly.graph_objects.layout.Annotation`
+            instances or dicts with compatible properties
+        annotationdefaults
+            When used in a template (as
+            layout.template.layout.annotationdefaults), sets the
+            default property values to use for elements of
+            layout.annotations
+        autosize
+            Determines whether or not a layout width or height that
+            has been left undefined by the user is initialized on
+            each relayout. Note that, regardless of this attribute,
+            an undefined layout width or height is always
+            initialized on the first call to plot.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. This is the default
+            value; however it could be overridden for individual
+            axes.
+        bargap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        bargroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        barmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "relative", the bars
+            are stacked on top of one another, with negative values
+            below the axis, positive values above With "group", the
+            bars are plotted next to one another centered around
+            the shared location. With "overlay", the bars are
+            plotted over one another, you might need to an
+            "opacity" to see multiple bars.
+        barnorm
+            Sets the normalization for bar traces on the graph.
+            With "fraction", the value of each bar is divided by
+            the sum of all values at that location coordinate.
+            "percent" is the same but multiplied by 100 to show
+            percentages.
+        boxgap
+            Sets the gap (in plot fraction) between boxes of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        boxgroupgap
+            Sets the gap (in plot fraction) between boxes of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        boxmode
+            Determines how boxes at the same location coordinate
+            are displayed on the graph. If "group", the boxes are
+            plotted next to one another centered around the shared
+            location. If "overlay", the boxes are plotted over one
+            another, you might need to set "opacity" to see them
+            multiple boxes. Has no effect on traces that have
+            "width" set.
+        calendar
+            Sets the default calendar system to use for
+            interpreting and displaying dates throughout the plot.
+        clickmode
+            Determines the mode of single click interactions.
+            "event" is the default value and emits the
+            `plotly_click` event. In addition this mode emits the
+            `plotly_selected` event in drag modes "lasso" and
+            "select", but with no event data attached (kept for
+            compatibility reasons). The "select" flag enables
+            selecting single data points via click. This mode also
+            supports persistent selections, meaning that pressing
+            Shift while clicking, adds to / subtracts from an
+            existing selection. "select" with `hovermode`: "x" can
+            be confusing, consider explicitly setting `hovermode`:
+            "closest" when using this feature. Selection events are
+            sent accordingly as long as "event" flag is set as
+            well. When the "event" flag is missing, `plotly_click`
+            and `plotly_selected` events are not fired.
+        coloraxis
+            :class:`plotly.graph_objects.layout.Coloraxis` instance
+            or dict with compatible properties
+        colorscale
+            :class:`plotly.graph_objects.layout.Colorscale`
+            instance or dict with compatible properties
+        colorway
+            Sets the default trace colors.
+        computed
+            Placeholder for exporting automargin-impacting values
+            namely `margin.t`, `margin.b`, `margin.l` and
+            `margin.r` in "full-json" mode.
+        datarevision
+            If provided, a changed value tells `Plotly.react` that
+            one or more data arrays has changed. This way you can
+            modify arrays in-place rather than making a complete
+            new copy for an incremental change. If NOT provided,
+            `Plotly.react` assumes that data arrays are being
+            treated as immutable, thus any data array with a
+            different identity from its predecessor contains new
+            data.
+        dragmode
+            Determines the mode of drag interactions. "select" and
+            "lasso" apply only to scatter traces with markers or
+            text. "orbit" and "turntable" apply only to 3D scenes.
+        editrevision
+            Controls persistence of user-driven changes in
+            `editable: true` configuration, other than trace names
+            and axis titles. Defaults to `layout.uirevision`.
+        extendfunnelareacolors
+            If `true`, the funnelarea slice colors (whether given
+            by `funnelareacolorway` or inherited from `colorway`)
+            will be extended to three times its original length by
+            first repeating every color 20% lighter then each color
+            20% darker. This is intended to reduce the likelihood
+            of reusing the same color when you have many slices,
+            but you can set `false` to disable. Colors provided in
+            the trace, using `marker.colors`, are never extended.
+        extendiciclecolors
+            If `true`, the icicle slice colors (whether given by
+            `iciclecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendpiecolors
+            If `true`, the pie slice colors (whether given by
+            `piecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendsunburstcolors
+            If `true`, the sunburst slice colors (whether given by
+            `sunburstcolorway` or inherited from `colorway`) will
+            be extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendtreemapcolors
+            If `true`, the treemap slice colors (whether given by
+            `treemapcolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        font
+            Sets the global font. Note that fonts used in traces
+            and other layout components inherit from the global
+            font.
+        funnelareacolorway
+            Sets the default funnelarea slice colors. Defaults to
+            the main `colorway` used for trace colors. If you
+            specify a new list here it can still be extended with
+            lighter and darker colors, see
+            `extendfunnelareacolors`.
+        funnelgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        funnelgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        funnelmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "group", the bars
+            are plotted next to one another centered around the
+            shared location. With "overlay", the bars are plotted
+            over one another, you might need to an "opacity" to see
+            multiple bars.
+        geo
+            :class:`plotly.graph_objects.layout.Geo` instance or
+            dict with compatible properties
+        grid
+            :class:`plotly.graph_objects.layout.Grid` instance or
+            dict with compatible properties
+        height
+            Sets the plot's height (in px).
+        hiddenlabels
+            hiddenlabels is the funnelarea & pie chart analog of
+            visible:'legendonly' but it can contain many labels,
+            and can simultaneously hide slices from several
+            pies/funnelarea charts
+        hiddenlabelssrc
+            Sets the source reference on Chart Studio Cloud for
+            `hiddenlabels`.
+        hidesources
+            Determines whether or not a text link citing the data
+            source is placed at the bottom-right cored of the
+            figure. Has only an effect only on graphs that have
+            been generated via forked graphs from the Chart Studio
+            Cloud (at https://chart-studio.plotly.com or on-
+            premise).
+        hoverdistance
+            Sets the default distance (in pixels) to look for data
+            to add hover labels (-1 means no cutoff, 0 means no
+            looking for data). This is only a real distance for
+            hovering on point-like objects, like scatter points.
+            For area-like objects (bars, scatter fills, etc)
+            hovering is on inside the area and off outside, but
+            these objects will not supersede hover on point-like
+            objects in case of conflict.
+        hoverlabel
+            :class:`plotly.graph_objects.layout.Hoverlabel`
+            instance or dict with compatible properties
+        hovermode
+            Determines the mode of hover interactions. If
+            "closest", a single hoverlabel will appear for the
+            "closest" point within the `hoverdistance`. If "x" (or
+            "y"), multiple hoverlabels will appear for multiple
+            points at the "closest" x- (or y-) coordinate within
+            the `hoverdistance`, with the caveat that no more than
+            one hoverlabel will appear per trace. If *x unified*
+            (or *y unified*), a single hoverlabel will appear
+            multiple points at the closest x- (or y-) coordinate
+            within the `hoverdistance` with the caveat that no more
+            than one hoverlabel will appear per trace. In this
+            mode, spikelines are enabled by default perpendicular
+            to the specified axis. If false, hover interactions are
+            disabled.
+        iciclecolorway
+            Sets the default icicle slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendiciclecolors`.
+        images
+            A tuple of :class:`plotly.graph_objects.layout.Image`
+            instances or dicts with compatible properties
+        imagedefaults
+            When used in a template (as
+            layout.template.layout.imagedefaults), sets the default
+            property values to use for elements of layout.images
+        legend
+            :class:`plotly.graph_objects.layout.Legend` instance or
+            dict with compatible properties
+        mapbox
+            :class:`plotly.graph_objects.layout.Mapbox` instance or
+            dict with compatible properties
+        margin
+            :class:`plotly.graph_objects.layout.Margin` instance or
+            dict with compatible properties
+        meta
+            Assigns extra meta information that can be used in
+            various `text` attributes. Attributes such as the
+            graph, axis and colorbar `title.text`, annotation
+            `text` `trace.name` in legend items, `rangeselector`,
+            `updatemenus` and `sliders` `label` text all support
+            `meta`. One can access `meta` fields using template
+            strings: `%{meta[i]}` where `i` is the index of the
+            `meta` item in question. `meta` can also be an object
+            for example `{key: value}` which can be accessed
+            %{meta[key]}.
+        metasrc
+            Sets the source reference on Chart Studio Cloud for
+            `meta`.
+        modebar
+            :class:`plotly.graph_objects.layout.Modebar` instance
+            or dict with compatible properties
+        newshape
+            :class:`plotly.graph_objects.layout.Newshape` instance
+            or dict with compatible properties
+        paper_bgcolor
+            Sets the background color of the paper where the graph
+            is drawn.
+        piecolorway
+            Sets the default pie slice colors. Defaults to the main
+            `colorway` used for trace colors. If you specify a new
+            list here it can still be extended with lighter and
+            darker colors, see `extendpiecolors`.
+        plot_bgcolor
+            Sets the background color of the plotting area in-
+            between x and y axes.
+        polar
+            :class:`plotly.graph_objects.layout.Polar` instance or
+            dict with compatible properties
+        scene
+            :class:`plotly.graph_objects.layout.Scene` instance or
+            dict with compatible properties
+        selectdirection
+            When `dragmode` is set to "select", this limits the
+            selection of the drag to horizontal, vertical or
+            diagonal. "h" only allows horizontal selection, "v"
+            only vertical, "d" only diagonal and "any" sets no
+            limit.
+        selectionrevision
+            Controls persistence of user-driven changes in selected
+            points from all traces.
+        separators
+            Sets the decimal and thousand separators. For example,
+            *. * puts a '.' before decimals and a space between
+            thousands. In English locales, dflt is ".," but other
+            locales may alter this default.
+        shapes
+            A tuple of :class:`plotly.graph_objects.layout.Shape`
+            instances or dicts with compatible properties
+        shapedefaults
+            When used in a template (as
+            layout.template.layout.shapedefaults), sets the default
+            property values to use for elements of layout.shapes
+        showlegend
+            Determines whether or not a legend is drawn. Default is
+            `true` if there is a trace to show and any of these: a)
+            Two or more traces would by default be shown in the
+            legend. b) One pie trace is shown in the legend. c) One
+            trace is explicitly given with `showlegend: true`.
+        sliders
+            A tuple of :class:`plotly.graph_objects.layout.Slider`
+            instances or dicts with compatible properties
+        sliderdefaults
+            When used in a template (as
+            layout.template.layout.sliderdefaults), sets the
+            default property values to use for elements of
+            layout.sliders
+        smith
+            :class:`plotly.graph_objects.layout.Smith` instance or
+            dict with compatible properties
+        spikedistance
+            Sets the default distance (in pixels) to look for data
+            to draw spikelines to (-1 means no cutoff, 0 means no
+            looking for data). As with hoverdistance, distance does
+            not apply to area-like objects. In addition, some
+            objects can be hovered on but will not generate
+            spikelines, such as scatter fills.
+        sunburstcolorway
+            Sets the default sunburst slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendsunburstcolors`.
+        template
+            Default attributes to be applied to the plot. This
+            should be a dict with format: `{'layout':
+            layoutTemplate, 'data': {trace_type: [traceTemplate,
+            ...], ...}}` where `layoutTemplate` is a dict matching
+            the structure of `figure.layout` and `traceTemplate` is
+            a dict matching the structure of the trace with type
+            `trace_type` (e.g. 'scatter'). Alternatively, this may
+            be specified as an instance of
+            plotly.graph_objs.layout.Template.  Trace templates are
+            applied cyclically to traces of each type. Container
+            arrays (eg `annotations`) have special handling: An
+            object ending in `defaults` (eg `annotationdefaults`)
+            is applied to each array item. But if an item has a
+            `templateitemname` key we look in the template array
+            for an item with matching `name` and apply that
+            instead. If no matching `name` is found we mark the
+            item invisible. Any named template item not referenced
+            is appended to the end of the array, so this can be
+            used to add a watermark annotation or a logo image, for
+            example. To omit one of these items on the plot, make
+            an item with matching `templateitemname` and `visible:
+            false`.
+        ternary
+            :class:`plotly.graph_objects.layout.Ternary` instance
+            or dict with compatible properties
+        title
+            :class:`plotly.graph_objects.layout.Title` instance or
+            dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.title.font instead. Sets
+            the title font. Note that the title's font used to be
+            customized by the now deprecated `titlefont` attribute.
+        transition
+            Sets transition options used during Plotly.react
+            updates.
+        treemapcolorway
+            Sets the default treemap slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendtreemapcolors`.
+        uirevision
+            Used to allow user interactions with the plot to
+            persist after `Plotly.react` calls that are unaware of
+            these interactions. If `uirevision` is omitted, or if
+            it is given and it changed from the previous
+            `Plotly.react` call, the exact new figure is used. If
+            `uirevision` is truthy and did NOT change, any
+            attribute that has been affected by user interactions
+            and did not receive a different value in the new figure
+            will keep the interaction value. `layout.uirevision`
+            attribute serves as the default for `uirevision`
+            attributes in various sub-containers. For finer control
+            you can set these sub-attributes directly. For example,
+            if your app separately controls the data on the x and y
+            axes you might set `xaxis.uirevision=*time*` and
+            `yaxis.uirevision=*cost*`. Then if only the y data is
+            changed, you can update `yaxis.uirevision=*quantity*`
+            and the y axis range will reset but the x axis range
+            will retain any user-driven zoom.
+        uniformtext
+            :class:`plotly.graph_objects.layout.Uniformtext`
+            instance or dict with compatible properties
+        updatemenus
+            A tuple of
+            :class:`plotly.graph_objects.layout.Updatemenu`
+            instances or dicts with compatible properties
+        updatemenudefaults
+            When used in a template (as
+            layout.template.layout.updatemenudefaults), sets the
+            default property values to use for elements of
+            layout.updatemenus
+        violingap
+            Sets the gap (in plot fraction) between violins of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        violingroupgap
+            Sets the gap (in plot fraction) between violins of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        violinmode
+            Determines how violins at the same location coordinate
+            are displayed on the graph. If "group", the violins are
+            plotted next to one another centered around the shared
+            location. If "overlay", the violins are plotted over
+            one another, you might need to set "opacity" to see
+            them multiple violins. Has no effect on traces that
+            have "width" set.
+        waterfallgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        waterfallgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        waterfallmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "group", the bars are
+            plotted next to one another centered around the shared
+            location. With "overlay", the bars are plotted over one
+            another, you might need to an "opacity" to see multiple
+            bars.
+        width
+            Sets the plot's width (in px).
+        xaxis
+            :class:`plotly.graph_objects.layout.XAxis` instance or
+            dict with compatible properties
+        yaxis
+            :class:`plotly.graph_objects.layout.YAxis` instance or
+            dict with compatible properties
+        
+Did you mean "font"?
+
+Bad property path:
+layout
+^^^^^^
+04-06-2022 09:24:57 : ERROR : dashboard : candlestick : 114 : (Process Details : (11808, MainProcess), Thread Details : (3688, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.Layout: 'layout'
+
+Did you mean "font"?
+
+    Valid properties:
+        activeshape
+            :class:`plotly.graph_objects.layout.Activeshape`
+            instance or dict with compatible properties
+        annotations
+            A tuple of
+            :class:`plotly.graph_objects.layout.Annotation`
+            instances or dicts with compatible properties
+        annotationdefaults
+            When used in a template (as
+            layout.template.layout.annotationdefaults), sets the
+            default property values to use for elements of
+            layout.annotations
+        autosize
+            Determines whether or not a layout width or height that
+            has been left undefined by the user is initialized on
+            each relayout. Note that, regardless of this attribute,
+            an undefined layout width or height is always
+            initialized on the first call to plot.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. This is the default
+            value; however it could be overridden for individual
+            axes.
+        bargap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        bargroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        barmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "relative", the bars
+            are stacked on top of one another, with negative values
+            below the axis, positive values above With "group", the
+            bars are plotted next to one another centered around
+            the shared location. With "overlay", the bars are
+            plotted over one another, you might need to an
+            "opacity" to see multiple bars.
+        barnorm
+            Sets the normalization for bar traces on the graph.
+            With "fraction", the value of each bar is divided by
+            the sum of all values at that location coordinate.
+            "percent" is the same but multiplied by 100 to show
+            percentages.
+        boxgap
+            Sets the gap (in plot fraction) between boxes of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        boxgroupgap
+            Sets the gap (in plot fraction) between boxes of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        boxmode
+            Determines how boxes at the same location coordinate
+            are displayed on the graph. If "group", the boxes are
+            plotted next to one another centered around the shared
+            location. If "overlay", the boxes are plotted over one
+            another, you might need to set "opacity" to see them
+            multiple boxes. Has no effect on traces that have
+            "width" set.
+        calendar
+            Sets the default calendar system to use for
+            interpreting and displaying dates throughout the plot.
+        clickmode
+            Determines the mode of single click interactions.
+            "event" is the default value and emits the
+            `plotly_click` event. In addition this mode emits the
+            `plotly_selected` event in drag modes "lasso" and
+            "select", but with no event data attached (kept for
+            compatibility reasons). The "select" flag enables
+            selecting single data points via click. This mode also
+            supports persistent selections, meaning that pressing
+            Shift while clicking, adds to / subtracts from an
+            existing selection. "select" with `hovermode`: "x" can
+            be confusing, consider explicitly setting `hovermode`:
+            "closest" when using this feature. Selection events are
+            sent accordingly as long as "event" flag is set as
+            well. When the "event" flag is missing, `plotly_click`
+            and `plotly_selected` events are not fired.
+        coloraxis
+            :class:`plotly.graph_objects.layout.Coloraxis` instance
+            or dict with compatible properties
+        colorscale
+            :class:`plotly.graph_objects.layout.Colorscale`
+            instance or dict with compatible properties
+        colorway
+            Sets the default trace colors.
+        computed
+            Placeholder for exporting automargin-impacting values
+            namely `margin.t`, `margin.b`, `margin.l` and
+            `margin.r` in "full-json" mode.
+        datarevision
+            If provided, a changed value tells `Plotly.react` that
+            one or more data arrays has changed. This way you can
+            modify arrays in-place rather than making a complete
+            new copy for an incremental change. If NOT provided,
+            `Plotly.react` assumes that data arrays are being
+            treated as immutable, thus any data array with a
+            different identity from its predecessor contains new
+            data.
+        dragmode
+            Determines the mode of drag interactions. "select" and
+            "lasso" apply only to scatter traces with markers or
+            text. "orbit" and "turntable" apply only to 3D scenes.
+        editrevision
+            Controls persistence of user-driven changes in
+            `editable: true` configuration, other than trace names
+            and axis titles. Defaults to `layout.uirevision`.
+        extendfunnelareacolors
+            If `true`, the funnelarea slice colors (whether given
+            by `funnelareacolorway` or inherited from `colorway`)
+            will be extended to three times its original length by
+            first repeating every color 20% lighter then each color
+            20% darker. This is intended to reduce the likelihood
+            of reusing the same color when you have many slices,
+            but you can set `false` to disable. Colors provided in
+            the trace, using `marker.colors`, are never extended.
+        extendiciclecolors
+            If `true`, the icicle slice colors (whether given by
+            `iciclecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendpiecolors
+            If `true`, the pie slice colors (whether given by
+            `piecolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendsunburstcolors
+            If `true`, the sunburst slice colors (whether given by
+            `sunburstcolorway` or inherited from `colorway`) will
+            be extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        extendtreemapcolors
+            If `true`, the treemap slice colors (whether given by
+            `treemapcolorway` or inherited from `colorway`) will be
+            extended to three times its original length by first
+            repeating every color 20% lighter then each color 20%
+            darker. This is intended to reduce the likelihood of
+            reusing the same color when you have many slices, but
+            you can set `false` to disable. Colors provided in the
+            trace, using `marker.colors`, are never extended.
+        font
+            Sets the global font. Note that fonts used in traces
+            and other layout components inherit from the global
+            font.
+        funnelareacolorway
+            Sets the default funnelarea slice colors. Defaults to
+            the main `colorway` used for trace colors. If you
+            specify a new list here it can still be extended with
+            lighter and darker colors, see
+            `extendfunnelareacolors`.
+        funnelgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        funnelgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        funnelmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "stack", the bars are
+            stacked on top of one another With "group", the bars
+            are plotted next to one another centered around the
+            shared location. With "overlay", the bars are plotted
+            over one another, you might need to an "opacity" to see
+            multiple bars.
+        geo
+            :class:`plotly.graph_objects.layout.Geo` instance or
+            dict with compatible properties
+        grid
+            :class:`plotly.graph_objects.layout.Grid` instance or
+            dict with compatible properties
+        height
+            Sets the plot's height (in px).
+        hiddenlabels
+            hiddenlabels is the funnelarea & pie chart analog of
+            visible:'legendonly' but it can contain many labels,
+            and can simultaneously hide slices from several
+            pies/funnelarea charts
+        hiddenlabelssrc
+            Sets the source reference on Chart Studio Cloud for
+            `hiddenlabels`.
+        hidesources
+            Determines whether or not a text link citing the data
+            source is placed at the bottom-right cored of the
+            figure. Has only an effect only on graphs that have
+            been generated via forked graphs from the Chart Studio
+            Cloud (at https://chart-studio.plotly.com or on-
+            premise).
+        hoverdistance
+            Sets the default distance (in pixels) to look for data
+            to add hover labels (-1 means no cutoff, 0 means no
+            looking for data). This is only a real distance for
+            hovering on point-like objects, like scatter points.
+            For area-like objects (bars, scatter fills, etc)
+            hovering is on inside the area and off outside, but
+            these objects will not supersede hover on point-like
+            objects in case of conflict.
+        hoverlabel
+            :class:`plotly.graph_objects.layout.Hoverlabel`
+            instance or dict with compatible properties
+        hovermode
+            Determines the mode of hover interactions. If
+            "closest", a single hoverlabel will appear for the
+            "closest" point within the `hoverdistance`. If "x" (or
+            "y"), multiple hoverlabels will appear for multiple
+            points at the "closest" x- (or y-) coordinate within
+            the `hoverdistance`, with the caveat that no more than
+            one hoverlabel will appear per trace. If *x unified*
+            (or *y unified*), a single hoverlabel will appear
+            multiple points at the closest x- (or y-) coordinate
+            within the `hoverdistance` with the caveat that no more
+            than one hoverlabel will appear per trace. In this
+            mode, spikelines are enabled by default perpendicular
+            to the specified axis. If false, hover interactions are
+            disabled.
+        iciclecolorway
+            Sets the default icicle slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendiciclecolors`.
+        images
+            A tuple of :class:`plotly.graph_objects.layout.Image`
+            instances or dicts with compatible properties
+        imagedefaults
+            When used in a template (as
+            layout.template.layout.imagedefaults), sets the default
+            property values to use for elements of layout.images
+        legend
+            :class:`plotly.graph_objects.layout.Legend` instance or
+            dict with compatible properties
+        mapbox
+            :class:`plotly.graph_objects.layout.Mapbox` instance or
+            dict with compatible properties
+        margin
+            :class:`plotly.graph_objects.layout.Margin` instance or
+            dict with compatible properties
+        meta
+            Assigns extra meta information that can be used in
+            various `text` attributes. Attributes such as the
+            graph, axis and colorbar `title.text`, annotation
+            `text` `trace.name` in legend items, `rangeselector`,
+            `updatemenus` and `sliders` `label` text all support
+            `meta`. One can access `meta` fields using template
+            strings: `%{meta[i]}` where `i` is the index of the
+            `meta` item in question. `meta` can also be an object
+            for example `{key: value}` which can be accessed
+            %{meta[key]}.
+        metasrc
+            Sets the source reference on Chart Studio Cloud for
+            `meta`.
+        modebar
+            :class:`plotly.graph_objects.layout.Modebar` instance
+            or dict with compatible properties
+        newshape
+            :class:`plotly.graph_objects.layout.Newshape` instance
+            or dict with compatible properties
+        paper_bgcolor
+            Sets the background color of the paper where the graph
+            is drawn.
+        piecolorway
+            Sets the default pie slice colors. Defaults to the main
+            `colorway` used for trace colors. If you specify a new
+            list here it can still be extended with lighter and
+            darker colors, see `extendpiecolors`.
+        plot_bgcolor
+            Sets the background color of the plotting area in-
+            between x and y axes.
+        polar
+            :class:`plotly.graph_objects.layout.Polar` instance or
+            dict with compatible properties
+        scene
+            :class:`plotly.graph_objects.layout.Scene` instance or
+            dict with compatible properties
+        selectdirection
+            When `dragmode` is set to "select", this limits the
+            selection of the drag to horizontal, vertical or
+            diagonal. "h" only allows horizontal selection, "v"
+            only vertical, "d" only diagonal and "any" sets no
+            limit.
+        selectionrevision
+            Controls persistence of user-driven changes in selected
+            points from all traces.
+        separators
+            Sets the decimal and thousand separators. For example,
+            *. * puts a '.' before decimals and a space between
+            thousands. In English locales, dflt is ".," but other
+            locales may alter this default.
+        shapes
+            A tuple of :class:`plotly.graph_objects.layout.Shape`
+            instances or dicts with compatible properties
+        shapedefaults
+            When used in a template (as
+            layout.template.layout.shapedefaults), sets the default
+            property values to use for elements of layout.shapes
+        showlegend
+            Determines whether or not a legend is drawn. Default is
+            `true` if there is a trace to show and any of these: a)
+            Two or more traces would by default be shown in the
+            legend. b) One pie trace is shown in the legend. c) One
+            trace is explicitly given with `showlegend: true`.
+        sliders
+            A tuple of :class:`plotly.graph_objects.layout.Slider`
+            instances or dicts with compatible properties
+        sliderdefaults
+            When used in a template (as
+            layout.template.layout.sliderdefaults), sets the
+            default property values to use for elements of
+            layout.sliders
+        smith
+            :class:`plotly.graph_objects.layout.Smith` instance or
+            dict with compatible properties
+        spikedistance
+            Sets the default distance (in pixels) to look for data
+            to draw spikelines to (-1 means no cutoff, 0 means no
+            looking for data). As with hoverdistance, distance does
+            not apply to area-like objects. In addition, some
+            objects can be hovered on but will not generate
+            spikelines, such as scatter fills.
+        sunburstcolorway
+            Sets the default sunburst slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendsunburstcolors`.
+        template
+            Default attributes to be applied to the plot. This
+            should be a dict with format: `{'layout':
+            layoutTemplate, 'data': {trace_type: [traceTemplate,
+            ...], ...}}` where `layoutTemplate` is a dict matching
+            the structure of `figure.layout` and `traceTemplate` is
+            a dict matching the structure of the trace with type
+            `trace_type` (e.g. 'scatter'). Alternatively, this may
+            be specified as an instance of
+            plotly.graph_objs.layout.Template.  Trace templates are
+            applied cyclically to traces of each type. Container
+            arrays (eg `annotations`) have special handling: An
+            object ending in `defaults` (eg `annotationdefaults`)
+            is applied to each array item. But if an item has a
+            `templateitemname` key we look in the template array
+            for an item with matching `name` and apply that
+            instead. If no matching `name` is found we mark the
+            item invisible. Any named template item not referenced
+            is appended to the end of the array, so this can be
+            used to add a watermark annotation or a logo image, for
+            example. To omit one of these items on the plot, make
+            an item with matching `templateitemname` and `visible:
+            false`.
+        ternary
+            :class:`plotly.graph_objects.layout.Ternary` instance
+            or dict with compatible properties
+        title
+            :class:`plotly.graph_objects.layout.Title` instance or
+            dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.title.font instead. Sets
+            the title font. Note that the title's font used to be
+            customized by the now deprecated `titlefont` attribute.
+        transition
+            Sets transition options used during Plotly.react
+            updates.
+        treemapcolorway
+            Sets the default treemap slice colors. Defaults to the
+            main `colorway` used for trace colors. If you specify a
+            new list here it can still be extended with lighter and
+            darker colors, see `extendtreemapcolors`.
+        uirevision
+            Used to allow user interactions with the plot to
+            persist after `Plotly.react` calls that are unaware of
+            these interactions. If `uirevision` is omitted, or if
+            it is given and it changed from the previous
+            `Plotly.react` call, the exact new figure is used. If
+            `uirevision` is truthy and did NOT change, any
+            attribute that has been affected by user interactions
+            and did not receive a different value in the new figure
+            will keep the interaction value. `layout.uirevision`
+            attribute serves as the default for `uirevision`
+            attributes in various sub-containers. For finer control
+            you can set these sub-attributes directly. For example,
+            if your app separately controls the data on the x and y
+            axes you might set `xaxis.uirevision=*time*` and
+            `yaxis.uirevision=*cost*`. Then if only the y data is
+            changed, you can update `yaxis.uirevision=*quantity*`
+            and the y axis range will reset but the x axis range
+            will retain any user-driven zoom.
+        uniformtext
+            :class:`plotly.graph_objects.layout.Uniformtext`
+            instance or dict with compatible properties
+        updatemenus
+            A tuple of
+            :class:`plotly.graph_objects.layout.Updatemenu`
+            instances or dicts with compatible properties
+        updatemenudefaults
+            When used in a template (as
+            layout.template.layout.updatemenudefaults), sets the
+            default property values to use for elements of
+            layout.updatemenus
+        violingap
+            Sets the gap (in plot fraction) between violins of
+            adjacent location coordinates. Has no effect on traces
+            that have "width" set.
+        violingroupgap
+            Sets the gap (in plot fraction) between violins of the
+            same location coordinate. Has no effect on traces that
+            have "width" set.
+        violinmode
+            Determines how violins at the same location coordinate
+            are displayed on the graph. If "group", the violins are
+            plotted next to one another centered around the shared
+            location. If "overlay", the violins are plotted over
+            one another, you might need to set "opacity" to see
+            them multiple violins. Has no effect on traces that
+            have "width" set.
+        waterfallgap
+            Sets the gap (in plot fraction) between bars of
+            adjacent location coordinates.
+        waterfallgroupgap
+            Sets the gap (in plot fraction) between bars of the
+            same location coordinate.
+        waterfallmode
+            Determines how bars at the same location coordinate are
+            displayed on the graph. With "group", the bars are
+            plotted next to one another centered around the shared
+            location. With "overlay", the bars are plotted over one
+            another, you might need to an "opacity" to see multiple
+            bars.
+        width
+            Sets the plot's width (in px).
+        xaxis
+            :class:`plotly.graph_objects.layout.XAxis` instance or
+            dict with compatible properties
+        yaxis
+            :class:`plotly.graph_objects.layout.YAxis` instance or
+            dict with compatible properties
+        
+Did you mean "font"?
+
+Bad property path:
+layout
+^^^^^^
+04-06-2022 09:31:21 : ERROR : dashboard : candlestick : 117 : (Process Details : (11808, MainProcess), Thread Details : (24356, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid property specified for object of type plotly.graph_objs.layout.XAxis: 'show'
+
+Did you mean "side"?
+
+    Valid properties:
+        anchor
+            If set to an opposite-letter axis id (e.g. `x2`, `y`),
+            this axis is bound to the corresponding opposite-letter
+            axis. If set to "free", this axis' position is
+            determined by `position`.
+        automargin
+            Determines whether long tick labels automatically grow
+            the figure margins.
+        autorange
+            Determines whether or not the range of this axis is
+            computed in relation to the input data. See `rangemode`
+            for more info. If `range` is provided, then `autorange`
+            is set to False.
+        autotypenumbers
+            Using "strict" a numeric string in trace data is not
+            converted to a number. Using *convert types* a numeric
+            string in trace data may be treated as a number during
+            automatic axis `type` detection. Defaults to
+            layout.autotypenumbers.
+        calendar
+            Sets the calendar system to use for `range` and `tick0`
+            if this is a date axis. This does not set the calendar
+            for interpreting data on this axis, that's specified in
+            the trace or via the global `layout.calendar`
+        categoryarray
+            Sets the order in which categories on this axis appear.
+            Only has an effect if `categoryorder` is set to
+            "array". Used with `categoryorder`.
+        categoryarraysrc
+            Sets the source reference on Chart Studio Cloud for
+            `categoryarray`.
+        categoryorder
+            Specifies the ordering logic for the case of
+            categorical variables. By default, plotly uses "trace",
+            which specifies the order that is present in the data
+            supplied. Set `categoryorder` to *category ascending*
+            or *category descending* if order should be determined
+            by the alphanumerical order of the category names. Set
+            `categoryorder` to "array" to derive the ordering from
+            the attribute `categoryarray`. If a category is not
+            found in the `categoryarray` array, the sorting
+            behavior for that attribute will be identical to the
+            "trace" mode. The unspecified categories will follow
+            the categories in `categoryarray`. Set `categoryorder`
+            to *total ascending* or *total descending* if order
+            should be determined by the numerical order of the
+            values. Similarly, the order can be determined by the
+            min, max, sum, mean or median of all the values.
+        color
+            Sets default for all colors associated with this axis
+            all at once: line, font, tick, and grid colors. Grid
+            color is lightened by blending this with the plot
+            background Individual pieces can override this.
+        constrain
+            If this axis needs to be compressed (either due to its
+            own `scaleanchor` and `scaleratio` or those of the
+            other axis), determines how that happens: by increasing
+            the "range", or by decreasing the "domain". Default is
+            "domain" for axes containing image traces, "range"
+            otherwise.
+        constraintoward
+            If this axis needs to be compressed (either due to its
+            own `scaleanchor` and `scaleratio` or those of the
+            other axis), determines which direction we push the
+            originally specified plot area. Options are "left",
+            "center" (default), and "right" for x axes, and "top",
+            "middle" (default), and "bottom" for y axes.
+        dividercolor
+            Sets the color of the dividers Only has an effect on
+            "multicategory" axes.
+        dividerwidth
+            Sets the width (in px) of the dividers Only has an
+            effect on "multicategory" axes.
+        domain
+            Sets the domain of this axis (in plot fraction).
+        dtick
+            Sets the step in-between ticks on this axis. Use with
+            `tick0`. Must be a positive number, or special strings
+            available to "log" and "date" axes. If the axis `type`
+            is "log", then ticks are set every 10^(n*dtick) where n
+            is the tick number. For example, to set a tick mark at
+            1, 10, 100, 1000, ... set dtick to 1. To set tick marks
+            at 1, 100, 10000, ... set dtick to 2. To set tick marks
+            at 1, 5, 25, 125, 625, 3125, ... set dtick to
+            log_10(5), or 0.69897000433. "log" has several special
+            values; "L<f>", where `f` is a positive number, gives
+            ticks linearly spaced in value (but not position). For
+            example `tick0` = 0.1, `dtick` = "L0.5" will put ticks
+            at 0.1, 0.6, 1.1, 1.6 etc. To show powers of 10 plus
+            small digits between, use "D1" (all digits) or "D2"
+            (only 2 and 5). `tick0` is ignored for "D1" and "D2".
+            If the axis `type` is "date", then you must convert the
+            time to milliseconds. For example, to set the interval
+            between ticks to one day, set `dtick` to 86400000.0.
+            "date" also has special values "M<n>" gives ticks
+            spaced by a number of months. `n` must be a positive
+            integer. To set ticks on the 15th of every third month,
+            set `tick0` to "2000-01-15" and `dtick` to "M3". To set
+            ticks every 4 years, set `dtick` to "M48"
+        exponentformat
+            Determines a formatting rule for the tick exponents.
+            For example, consider the number 1,000,000,000. If
+            "none", it appears as 1,000,000,000. If "e", 1e+9. If
+            "E", 1E+9. If "power", 1x10^9 (with 9 in a super
+            script). If "SI", 1G. If "B", 1B.
+        fixedrange
+            Determines whether or not this axis is zoom-able. If
+            true, then zoom is disabled.
+        gridcolor
+            Sets the color of the grid lines.
+        griddash
+            Sets the dash style of lines. Set to a dash type string
+            ("solid", "dot", "dash", "longdash", "dashdot", or
+            "longdashdot") or a dash length list in px (eg
+            "5px,10px,2px,2px").
+        gridwidth
+            Sets the width (in px) of the grid lines.
+        hoverformat
+            Sets the hover text formatting rule using d3 formatting
+            mini-languages which are very similar to those in
+            Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display "09~15~23.46"
+        layer
+            Sets the layer on which this axis is displayed. If
+            *above traces*, this axis is displayed above all the
+            subplot's traces If *below traces*, this axis is
+            displayed below all the subplot's traces, but above the
+            grid lines. Useful when used together with scatter-like
+            traces with `cliponaxis` set to False to show markers
+            and/or text nodes above this axis.
+        linecolor
+            Sets the axis line color.
+        linewidth
+            Sets the width (in px) of the axis line.
+        matches
+            If set to another axis id (e.g. `x2`, `y`), the range
+            of this axis will match the range of the corresponding
+            axis in data-coordinates space. Moreover, matching axes
+            share auto-range values, category lists and histogram
+            auto-bins. Note that setting axes simultaneously in
+            both a `scaleanchor` and a `matches` constraint is
+            currently forbidden. Moreover, note that matching axes
+            must have the same `type`.
+        minexponent
+            Hide SI prefix for 10^n if |n| is below this number.
+            This only has an effect when `tickformat` is "SI" or
+            "B".
+        minor
+            :class:`plotly.graph_objects.layout.xaxis.Minor`
+            instance or dict with compatible properties
+        mirror
+            Determines if the axis lines or/and ticks are mirrored
+            to the opposite side of the plotting area. If True, the
+            axis lines are mirrored. If "ticks", the axis lines and
+            ticks are mirrored. If False, mirroring is disable. If
+            "all", axis lines are mirrored on all shared-axes
+            subplots. If "allticks", axis lines and ticks are
+            mirrored on all shared-axes subplots.
+        nticks
+            Specifies the maximum number of ticks for the
+            particular axis. The actual number of ticks will be
+            chosen automatically to be less than or equal to
+            `nticks`. Has an effect only if `tickmode` is set to
+            "auto".
+        overlaying
+            If set a same-letter axis id, this axis is overlaid on
+            top of the corresponding same-letter axis, with traces
+            and axes visible for both axes. If False, this axis
+            does not overlay any same-letter axes. In this case,
+            for axes with overlapping domains only the highest-
+            numbered axis will be visible.
+        position
+            Sets the position of this axis in the plotting space
+            (in normalized coordinates). Only has an effect if
+            `anchor` is set to "free".
+        range
+            Sets the range of this axis. If the axis `type` is
+            "log", then you must take the log of your desired range
+            (e.g. to set the range from 1 to 100, set the range
+            from 0 to 2). If the axis `type` is "date", it should
+            be date strings, like date data, though Date objects
+            and unix milliseconds will be accepted and converted to
+            strings. If the axis `type` is "category", it should be
+            numbers, using the scale where each category is
+            assigned a serial number from zero in the order it
+            appears.
+        rangebreaks
+            A tuple of
+            :class:`plotly.graph_objects.layout.xaxis.Rangebreak`
+            instances or dicts with compatible properties
+        rangebreakdefaults
+            When used in a template (as
+            layout.template.layout.xaxis.rangebreakdefaults), sets
+            the default property values to use for elements of
+            layout.xaxis.rangebreaks
+        rangemode
+            If "normal", the range is computed in relation to the
+            extrema of the input data. If *tozero*`, the range
+            extends to 0, regardless of the input data If
+            "nonnegative", the range is non-negative, regardless of
+            the input data. Applies only to linear axes.
+        rangeselector
+            :class:`plotly.graph_objects.layout.xaxis.Rangeselector
+            ` instance or dict with compatible properties
+        rangeslider
+            :class:`plotly.graph_objects.layout.xaxis.Rangeslider`
+            instance or dict with compatible properties
+        scaleanchor
+            If set to another axis id (e.g. `x2`, `y`), the range
+            of this axis changes together with the range of the
+            corresponding axis such that the scale of pixels per
+            unit is in a constant ratio. Both axes are still
+            zoomable, but when you zoom one, the other will zoom
+            the same amount, keeping a fixed midpoint. `constrain`
+            and `constraintoward` determine how we enforce the
+            constraint. You can chain these, ie `yaxis:
+            {scaleanchor: *x*}, xaxis2: {scaleanchor: *y*}` but you
+            can only link axes of the same `type`. The linked axis
+            can have the opposite letter (to constrain the aspect
+            ratio) or the same letter (to match scales across
+            subplots). Loops (`yaxis: {scaleanchor: *x*}, xaxis:
+            {scaleanchor: *y*}` or longer) are redundant and the
+            last constraint encountered will be ignored to avoid
+            possible inconsistent constraints via `scaleratio`.
+            Note that setting axes simultaneously in both a
+            `scaleanchor` and a `matches` constraint is currently
+            forbidden.
+        scaleratio
+            If this axis is linked to another by `scaleanchor`,
+            this determines the pixel to unit scale ratio. For
+            example, if this value is 10, then every unit on this
+            axis spans 10 times the number of pixels as a unit on
+            the linked axis. Use this for example to create an
+            elevation profile where the vertical scale is
+            exaggerated a fixed amount with respect to the
+            horizontal.
+        separatethousands
+            If "true", even 4-digit integers are separated
+        showdividers
+            Determines whether or not a dividers are drawn between
+            the category levels of this axis. Only has an effect on
+            "multicategory" axes.
+        showexponent
+            If "all", all exponents are shown besides their
+            significands. If "first", only the exponent of the
+            first tick is shown. If "last", only the exponent of
+            the last tick is shown. If "none", no exponents appear.
+        showgrid
+            Determines whether or not grid lines are drawn. If
+            True, the grid lines are drawn at every tick mark.
+        showline
+            Determines whether or not a line bounding this axis is
+            drawn.
+        showspikes
+            Determines whether or not spikes (aka droplines) are
+            drawn for this axis. Note: This only takes affect when
+            hovermode = closest
+        showticklabels
+            Determines whether or not the tick labels are drawn.
+        showtickprefix
+            If "all", all tick labels are displayed with a prefix.
+            If "first", only the first tick is displayed with a
+            prefix. If "last", only the last tick is displayed with
+            a suffix. If "none", tick prefixes are hidden.
+        showticksuffix
+            Same as `showtickprefix` but for tick suffixes.
+        side
+            Determines whether a x (y) axis is positioned at the
+            "bottom" ("left") or "top" ("right") of the plotting
+            area.
+        spikecolor
+            Sets the spike color. If undefined, will use the series
+            color
+        spikedash
+            Sets the dash style of lines. Set to a dash type string
+            ("solid", "dot", "dash", "longdash", "dashdot", or
+            "longdashdot") or a dash length list in px (eg
+            "5px,10px,2px,2px").
+        spikemode
+            Determines the drawing mode for the spike line If
+            "toaxis", the line is drawn from the data point to the
+            axis the  series is plotted on. If "across", the line
+            is drawn across the entire plot area, and supercedes
+            "toaxis". If "marker", then a marker dot is drawn on
+            the axis the series is plotted on
+        spikesnap
+            Determines whether spikelines are stuck to the cursor
+            or to the closest datapoints.
+        spikethickness
+            Sets the width (in px) of the zero line.
+        tick0
+            Sets the placement of the first tick on this axis. Use
+            with `dtick`. If the axis `type` is "log", then you
+            must take the log of your starting tick (e.g. to set
+            the starting tick to 100, set the `tick0` to 2) except
+            when `dtick`=*L<f>* (see `dtick` for more info). If the
+            axis `type` is "date", it should be a date string, like
+            date data. If the axis `type` is "category", it should
+            be a number, using the scale where each category is
+            assigned a serial number from zero in the order it
+            appears.
+        tickangle
+            Sets the angle of the tick labels with respect to the
+            horizontal. For example, a `tickangle` of -90 draws the
+            tick labels vertically.
+        tickcolor
+            Sets the tick color.
+        tickfont
+            Sets the tick font.
+        tickformat
+            Sets the tick label formatting rule using d3 formatting
+            mini-languages which are very similar to those in
+            Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display "09~15~23.46"
+        tickformatstops
+            A tuple of :class:`plotly.graph_objects.layout.xaxis.Ti
+            ckformatstop` instances or dicts with compatible
+            properties
+        tickformatstopdefaults
+            When used in a template (as
+            layout.template.layout.xaxis.tickformatstopdefaults),
+            sets the default property values to use for elements of
+            layout.xaxis.tickformatstops
+        ticklabelmode
+            Determines where tick labels are drawn with respect to
+            their corresponding ticks and grid lines. Only has an
+            effect for axes of `type` "date" When set to "period",
+            tick labels are drawn in the middle of the period
+            between ticks.
+        ticklabeloverflow
+            Determines how we handle tick labels that would
+            overflow either the graph div or the domain of the
+            axis. The default value for inside tick labels is *hide
+            past domain*. Otherwise on "category" and
+            "multicategory" axes the default is "allow". In other
+            cases the default is *hide past div*.
+        ticklabelposition
+            Determines where tick labels are drawn with respect to
+            the axis Please note that top or bottom has no effect
+            on x axes or when `ticklabelmode` is set to "period".
+            Similarly left or right has no effect on y axes or when
+            `ticklabelmode` is set to "period". Has no effect on
+            "multicategory" axes or when `tickson` is set to
+            "boundaries". When used on axes linked by `matches` or
+            `scaleanchor`, no extra padding for inside labels would
+            be added by autorange, so that the scales could match.
+        ticklabelstep
+            Sets the spacing between tick labels as compared to the
+            spacing between ticks. A value of 1 (default) means
+            each tick gets a label. A value of 2 means shows every
+            2nd label. A larger value n means only every nth tick
+            is labeled. `tick0` determines which labels are shown.
+            Not implemented for axes with `type` "log" or
+            "multicategory", or when `tickmode` is "array".
+        ticklen
+            Sets the tick length (in px).
+        tickmode
+            Sets the tick mode for this axis. If "auto", the number
+            of ticks is set via `nticks`. If "linear", the
+            placement of the ticks is determined by a starting
+            position `tick0` and a tick step `dtick` ("linear" is
+            the default value if `tick0` and `dtick` are provided).
+            If "array", the placement of the ticks is set via
+            `tickvals` and the tick text is `ticktext`. ("array" is
+            the default value if `tickvals` is provided).
+        tickprefix
+            Sets a tick label prefix.
+        ticks
+            Determines whether ticks are drawn or not. If "", this
+            axis' ticks are not drawn. If "outside" ("inside"),
+            this axis' are drawn outside (inside) the axis lines.
+        tickson
+            Determines where ticks and grid lines are drawn with
+            respect to their corresponding tick labels. Only has an
+            effect for axes of `type` "category" or
+            "multicategory". When set to "boundaries", ticks and
+            grid lines are drawn half a category to the left/bottom
+            of labels.
+        ticksuffix
+            Sets a tick label suffix.
+        ticktext
+            Sets the text displayed at the ticks position via
+            `tickvals`. Only has an effect if `tickmode` is set to
+            "array". Used with `tickvals`.
+        ticktextsrc
+            Sets the source reference on Chart Studio Cloud for
+            `ticktext`.
+        tickvals
+            Sets the values at which ticks on this axis appear.
+            Only has an effect if `tickmode` is set to "array".
+            Used with `ticktext`.
+        tickvalssrc
+            Sets the source reference on Chart Studio Cloud for
+            `tickvals`.
+        tickwidth
+            Sets the tick width (in px).
+        title
+            :class:`plotly.graph_objects.layout.xaxis.Title`
+            instance or dict with compatible properties
+        titlefont
+            Deprecated: Please use layout.xaxis.title.font instead.
+            Sets this axis' title font. Note that the title's font
+            used to be customized by the now deprecated `titlefont`
+            attribute.
+        type
+            Sets the axis type. By default, plotly attempts to
+            determined the axis type by looking into the data of
+            the traces that referenced the axis in question.
+        uirevision
+            Controls persistence of user-driven changes in axis
+            `range`, `autorange`, and `title` if in `editable:
+            true` configuration. Defaults to `layout.uirevision`.
+        visible
+            A single toggle to hide the axis while preserving
+            interaction like dragging. Default is true when a
+            cheater plot is present on the axis, otherwise false
+        zeroline
+            Determines whether or not a line is drawn at along the
+            0 value of this axis. If True, the zero line is drawn
+            on top of the grid lines.
+        zerolinecolor
+            Sets the line color of the zero line.
+        zerolinewidth
+            Sets the width (in px) of the zero line.
+        
+Did you mean "side"?
+
+Bad property path:
+show_grid
+^^^^
+04-06-2022 09:38:02 : ERROR : dashboard : candlestick : 118 : (Process Details : (11808, MainProcess), Thread Details : (18624, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Vertical spacing must be between 0 and 1.

@@ -89,13 +89,19 @@ def add():
             inputs[vars.Start] = start_date
             inputs[vars.End] = end_date
 
-            i_days = (end_date-start_date).days
-            vars.days = i_days
-
         #!! Adding global variables
-        # max1 = vars.days // 5 + 1
-        # vars.time_window = st.sidebar.slider(
-        #     'Analysis Time-window:', value=max1, min_value=0, max_value=max1)
+        st.sidebar.write("""
+            ## Time interval
+            """)
+        inter_ops = st.sidebar.selectbox('', ('15 minutes', 'Hour', 'Day',
+                                                           'Week', 'Month'),
+                                         index=0)
+        vars.interval = {inter_ops == '15 minutes': '15m',
+                         inter_ops == 'Hour': '1h',
+                         inter_ops == 'Day': '1d',
+                         inter_ops == 'Week': '1wk',
+                         inter_ops == 'Month': '1mo'
+                         }.get(1)
         #!! reuturn input list
         return inputs
     except Exception as e:

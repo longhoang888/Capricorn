@@ -20,7 +20,6 @@ import xlwt
 
 def add(ticker):
     try:
-        st.write('Data source: **Yahoo Finance**')
         #!! Get Stock info
         tickerData = yf.Ticker(ticker)
         #!! Convert ticker data into list and transpose list into data frame
@@ -36,14 +35,13 @@ def add(ticker):
 
         #!! Company name
         longName = tickerData_df.at['longName', 'values']
+        st.title(longName)
         hcol1, hcol2, hcol3, hcol4, hcol5 = st.columns(5)
         with hcol1:
-            st.title(longName)
-        with hcol2:
             value = tickerData_df.at["volume", "values"]
             delta = tickerData_df.at["averageVolume", "values"]
             st.metric("Trade Volume", value=value,
-                      delta=delta, delta_color="inverse")
+                      delta=delta)
         with st.expander("Learn more"):
             busiSum = tickerData_df.at['longBusinessSummary', 'values']
             st.write(busiSum)

@@ -42,8 +42,7 @@ def active_logger():
 #!!E-------------------------------------------------------------------------------------------------------------------------------------
 
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
-
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 #!!B------------------------------------------------------------------------------------------------------------------------------------
 #!! Fetching data from yahoo finance
 #!! INPUT: list of tickers
@@ -61,13 +60,28 @@ def get_yfdata(inputs):
             end_date = inputs[vars.End]
             yfdata_DF = yf.download(
                 tickers, start=start_date, end=end_date, group_by=tickers, interval=vars.interval)
-        yfdata_DF.fillna(0, inplace=True)
+
         yfdata_DF.dropna(inplace=True)
+
+        # Revert dataframe to get the correct descending sequence
+        yfdata_DF = yfdata_DF.iloc[::-1]
+
+        # Reset index
         yfdata_DF.reset_index(inplace=True)
+
+        # Rename Datetime to Date
+        if 'Datetime' in yfdata_DF:
+            yfdata_DF.rename(columns={"Datetime": "Date"}, inplace=True)
+
+        if 'Volume' in yfdata_DF:
+            yfdata_DF["Volume"] = yfdata_DF["Volume"].map('{:,d}'.format)
+
+        #Round decimal to 2 digits number
         yfdata_DF = np.round(yfdata_DF, decimals=2)
-        yfdata_DF["Volume"] = yfdata_DF["Volume"].map('{:,d}'.format)
+
+        #
         pd.options.display.float_format = '{:, .2f}'.format
-        yfdata_DF.sort_values("Datetime", ascending=False)
+
         return yfdata_DF
     except Exception as e:
         vars.logger.error(
@@ -216,7 +230,6 @@ def ATR(data, period=14):
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
         return None
 #!!E------------------------------------------------------------------------------------------------------------------------------------
-
 
 
 #!!B------------------------------------------------------------------------------------------------------------------------------------

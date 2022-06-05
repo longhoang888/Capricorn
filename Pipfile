@@ -14,6 +14,9 @@ datetime = "*"
 openpyxl = "*"
 xlwt = "*"
 streamlit-aggrid = "*"
+streamlit-lottie = "*"
+dash = "*"
+plotly = "==5.8.0"
 
 [dev-packages]
 

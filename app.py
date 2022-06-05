@@ -50,13 +50,14 @@ def main():
                 header.add(inputs[vars.Symbol])
                 st.write("Historical Data")
                 db.tableau(history_df, height=650)
-
+                db.candlestick(history_df, title=inputs[vars.Symbol])
                 # # adding EMA
                 # tickerDf[["SEMA", "LEMA", "DSEMA", "DLEMA",
                 #           "TSEMA", "TLEMA"]] = devf.EMA(tickerDf)
                 # df = pd.DataFrame()
                 # df = tickerDf
                 # AgGrid(df)
+                st.write('Data source: **Yahoo Finance**')
     except Exception as e:
         vars.logger.error(
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
