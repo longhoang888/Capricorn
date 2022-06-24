@@ -1,13 +1,13 @@
 # Created by: Long Hoang
 # Created on: 2022-05-19
-# Description: Dashboard
+# Description: painter
 
 from turtle import color
 import streamlit as st
 import pandas as pd
 import numpy as np
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
-from glov import contants
+from vars import contants
 from utils import functions
 import logging
 from logging import config
@@ -18,7 +18,6 @@ import plotly.tools as tls
 import plotly.express as px
 from datetime import datetime
 import mplfinance as mpl
-from plotly.matplotlylib.mplexporter import Renderer
 #!!B------------------------------------------------------------------------------------------------------------------------------------
 #!! Display Tabular DataFrame on pretty table
 #!! INPUT:
@@ -65,7 +64,7 @@ def tableau(data, checkbox=False, theme='material', height=250, pivot=False):
 #!! INPUT:
 
 
-def candlestick(data, EMA=True, title='', yaxis='Price'):
+def plot_candlestick(data, EMA=True, title='', yaxis='Price'):
     try:
         # Candlestick Trace
         candlestick = go.Candlestick(x=data['Date'], open=data['Open'],  # name="Trading Price",
@@ -175,7 +174,7 @@ def candlestick(data, EMA=True, title='', yaxis='Price'):
 #!! INPUT:
 
 
-def renko(data, **kwargs):
+def plot_renko(data, **kwargs):
     try:
         # # renko_data = data.copy()
         # # renko_data.reset_index(drop=True, inplace=True)

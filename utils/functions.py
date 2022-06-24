@@ -10,7 +10,7 @@ import numpy as np
 import yfinance as yf
 import streamlit as st
 import pandas as pd
-from glov import contants
+from vars import contants
 import logging
 from logging import config
 from datetime import date, datetime
@@ -33,7 +33,8 @@ def active_logger():
         logger.setLevel(logging.DEBUG)
         error_log = logging.FileHandler(contants.error_log)
         error_log.setLevel(logging.ERROR)
-        formatter = logging.Formatter(contants.logformat, datefmt=contants.datefmt)
+        formatter = logging.Formatter(
+            contants.logformat, datefmt=contants.datefmt)
         error_log.setFormatter(formatter)
         logger.addHandler(error_log)
         logger.error("Error Type : {}, Error Message : {}".format(

@@ -6,7 +6,7 @@ import streamlit as st
 import datetime
 import time
 from datetime import date, timedelta
-from glov import contants, messages as msg
+from vars import contants, messages as msg
 
 #!!B-----------------------------------------------------------------------------------------------------------------------------------
 #!! Add sidebar components
@@ -97,11 +97,11 @@ def add():
                                               'Week', 'Month'),
                                          index=0)
         inputs[contants.Interval] = {inter_ops == '15 minutes': '15m',
-                                 inter_ops == 'Hour': '1h',
-                                 inter_ops == 'Day': '1d',
-                                 inter_ops == 'Week': '1wk',
-                                 inter_ops == 'Month': '1mo'
-                                 }.get(1)
+                                     inter_ops == 'Hour': '1h',
+                                     inter_ops == 'Day': '1d',
+                                     inter_ops == 'Week': '1wk',
+                                     inter_ops == 'Month': '1mo'
+                                     }.get(1)
         #!! reuturn input list
         return inputs
     except Exception as e:

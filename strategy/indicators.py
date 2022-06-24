@@ -10,9 +10,8 @@ import numpy as np
 import yfinance as yf
 import streamlit as st
 import pandas as pd
-from glov import contants
-import logging
-from logging import config
+from vars import contants
+from logging import *
 from datetime import date, datetime
 from stocktrends import Renko
 #!!B------------------------------------------------------------------------------------------------------------------------------------

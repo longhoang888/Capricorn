@@ -9,7 +9,7 @@ import yfinance as yf
 import numpy as np
 import pandas as pd
 from datetime import date, timedelta
-from glov import contants
+from vars import contants
 from utils import functions
 import xlwt
 

@@ -16,7 +16,7 @@ import time
 from datetime import date, timedelta
 from utils import functions, painter as db
 from apps import sidebar, header
-from glov import contants, messages as msg
+from vars import contants, messages as msg
 from st_aggrid import AgGrid
 
 
