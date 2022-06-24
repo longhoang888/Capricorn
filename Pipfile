@@ -8,7 +8,6 @@ streamlit = "*"
 pandas = "*"
 yfinance = "*"
 numpy = "*"
-matplotlib = "*"
 altair = "*"
 datetime = "*"
 openpyxl = "*"
@@ -17,6 +16,10 @@ streamlit-aggrid = "*"
 streamlit-lottie = "*"
 dash = "*"
 plotly = "==5.8.0"
+mplfinance = "*"
+stocktrends = "*"
+pipwin = "*"
+matplotlib = "==3.5"
 
 [dev-packages]
 

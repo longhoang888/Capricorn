@@ -14,9 +14,9 @@ from PIL import Image
 import datetime
 import time
 from datetime import date, timedelta
-from util import devf
-from apps import sidebar, header, dashboard as db
-from glov import vars, messages as msg
+from utils import functions, painter as db
+from apps import sidebar, header
+from glov import contants, messages as msg
 from st_aggrid import AgGrid
 
 
@@ -26,10 +26,10 @@ from st_aggrid import AgGrid
 
 
 #!! Set layout wide
-st.set_page_config(page_title=vars.page_title, layout=vars.page_layout)
+st.set_page_config(page_title=contants.page_title, layout=contants.page_layout)
 
 #!! Activate Logger
-devf.active_logger()
+functions.active_logger()
 
 #!!B-----------------------------------------------------------------------------------------------------------------------------------
 #!! Application Executor
@@ -41,25 +41,27 @@ def main():
     try:
         #!! Get user input
         inputs = sidebar.add()
-        if inputs[vars.F8] != vars.noGO:
+        if inputs[contants.F8] != contants.noGO:
             #!! Get stock infor
-            history_df = devf.get_yfdata(inputs)
-            if history_df.empty:
+            candle_df, renko_df = functions.get_yfdata(inputs)
+            if candle_df.empty:
                 st.error(msg.E001)
             else:
-                header.add(inputs[vars.Symbol])
-                st.write("Historical Data")
-                db.tableau(history_df, height=650)
-                db.candlestick(history_df, title=inputs[vars.Symbol])
-                # # adding EMA
-                # tickerDf[["SEMA", "LEMA", "DSEMA", "DLEMA",
-                #           "TSEMA", "TLEMA"]] = devf.EMA(tickerDf)
-                # df = pd.DataFrame()
-                # df = tickerDf
-                # AgGrid(df)
+                # header.add(inputs[vars.Symbol])
+                # st.write("Historical Data")
+                # db.tableau(candle_df, height=650)
+                # db.candlestick(candle_df, title=inputs[vars.Symbol])
+                # input_renko = inputs
+                # input_renko[vars.Interval] = '1h'
+                # input_renko[vars.Period] = '1y'
+                # input_renko[vars.xPeriod] = True
+                # hour_df, raw_df = devf.get_yfdata(input_renko)
+                # renko_chart = devf.renko_convertion(renko_df, hour_df)
+                # db.renko(renko_chart)
+                db.renko(renko_df)
                 st.write('Data source: **Yahoo Finance**')
     except Exception as e:
-        vars.logger.error(
+        contants.logger.error(
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
 #!!E-----------------------------------------------------------------------------------------------------------------------------------
 

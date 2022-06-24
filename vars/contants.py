@@ -30,6 +30,7 @@ Low = "Low"
 AdjClose = "Adj Close"
 summary_labs = ["previousClose", "open", "bid","bidSize", "ask", "askSize","volume","averageVolume"]
 path = "logs/"
+Interval = 'Interval'
 
 
 #Plot style
@@ -51,7 +52,7 @@ HEXBIN = 'hexbin' # hexbin plot (DataFrame only)
 time_window = 0
 days = 0
 
-interval = "1d"
+# interval = "1d"
 
 #Date time format
 datefmt = '%m/%d/%Y %I:%M:%S %p'

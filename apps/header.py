@@ -9,8 +9,8 @@ import yfinance as yf
 import numpy as np
 import pandas as pd
 from datetime import date, timedelta
-from glov import vars
-from util import devf
+from glov import contants
+from utils import functions
 import xlwt
 
 #!!B-----------------------------------------------------------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ def add(ticker):
             st.download_button("Download data to excel", data=csv,
                                file_name=ticker + "_quote_" + str(date.today()) + ".csv")
     except Exception as e:
-        vars.logger.error(
+        contants.logger.error(
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
         return None
 #!!E-----------------------------------------------------------------------------------------------------------------------------------

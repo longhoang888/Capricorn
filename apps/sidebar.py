@@ -6,7 +6,7 @@ import streamlit as st
 import datetime
 import time
 from datetime import date, timedelta
-from glov import vars, messages as msg
+from glov import contants, messages as msg
 
 #!!B-----------------------------------------------------------------------------------------------------------------------------------
 #!! Add sidebar components
@@ -22,19 +22,19 @@ def add():
         #!! START_LEFT_GROUP : Add controls on the left side pannel using st.sidebar
 
         #!! Input Stock tickers
-        ticker_input = vars.ini_Symbol
+        ticker_input = contants.ini_Symbol
         tickerSymbol = st.sidebar.text_input(
             "Enter Stock Symbol", ticker_input, 5,)
         # remove leading and trailing spaces.
         tickerSymbol = tickerSymbol.strip()
         #!! add running option to list
-        inputs[vars.F8] = vars.Run
+        inputs[contants.F8] = contants.Run
         if tickerSymbol.isspace() or tickerSymbol == '' or tickerSymbol.isnumeric():
-            inputs[vars.F8] = vars.noGO
+            inputs[contants.F8] = contants.noGO
             st.sidebar.error(msg.E002)
 
         #!! add ticker to the list
-        inputs[vars.Symbol] = tickerSymbol
+        inputs[contants.Symbol] = tickerSymbol
 
         #!! Select options
         st.sidebar.header('How would you like to gather the data?')
@@ -44,7 +44,7 @@ def add():
 
         #!! add time interval
         if history_option == 'Period':
-            inputs[vars.xPeriod] = True
+            inputs[contants.xPeriod] = True
             #!! Input the period
             period_option = st.sidebar.selectbox('Data period to download',
                                                  ('Weekly', 'Monthly', '3 months',
@@ -75,37 +75,37 @@ def add():
             st.sidebar.write('You selected:', period_option)
 
             #!! add period into list
-            inputs[vars.Period] = period
-            vars.days = p_days.get(1)
+            inputs[contants.Period] = period
+            contants.days = p_days.get(1)
         else:
-            inputs[vars.xPeriod] = False
+            inputs[contants.xPeriod] = False
             #!! start and end date
             today = date.today()
             last4day = today - timedelta(5)
             start_date = st.sidebar.date_input("Start Date:", last4day,
-                                               max_value=today - timedelta(1))
+                                               max_value=today)  # - timedelta(1))
             end_date = st.sidebar.date_input(
                 "End Date: ", today, min_value=start_date, max_value=today)
-            inputs[vars.Start] = start_date
-            inputs[vars.End] = end_date
+            inputs[contants.Start] = start_date
+            inputs[contants.End] = end_date
 
         #!! Adding global variables
         st.sidebar.write("""
             ## Time interval
             """)
         inter_ops = st.sidebar.selectbox('', ('15 minutes', 'Hour', 'Day',
-                                                           'Week', 'Month'),
+                                              'Week', 'Month'),
                                          index=0)
-        vars.interval = {inter_ops == '15 minutes': '15m',
-                         inter_ops == 'Hour': '1h',
-                         inter_ops == 'Day': '1d',
-                         inter_ops == 'Week': '1wk',
-                         inter_ops == 'Month': '1mo'
-                         }.get(1)
+        inputs[contants.Interval] = {inter_ops == '15 minutes': '15m',
+                                 inter_ops == 'Hour': '1h',
+                                 inter_ops == 'Day': '1d',
+                                 inter_ops == 'Week': '1wk',
+                                 inter_ops == 'Month': '1mo'
+                                 }.get(1)
         #!! reuturn input list
         return inputs
     except Exception as e:
-        vars.logger.error(
+        contants.logger.error(
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
         return None
 
