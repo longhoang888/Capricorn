@@ -16,9 +16,9 @@ from datetime import date, datetime
 from stocktrends import Renko
 #!!B------------------------------------------------------------------------------------------------------------------------------------
 #!! Calculate Technical Indicator MACD https://www.tradingview.com/scripts/
-    #   MACD Line: (12-day EMA - 26-day EMA)
-    #   Signal Line: 9-day EMA of MACD Line
-    #   MACD Histogram: MACD Line - Signal Line
+#   MACD Line: (12-day EMA - 26-day EMA)
+#   Signal Line: 9-day EMA of MACD Line
+#   MACD Histogram: MACD Line - Signal Line
 #!! INPUT: ticker data includes Adj Close
 
 
@@ -40,21 +40,20 @@ def MACD(data, column=contants.AdjClose, fast=12, slow=26, smooth=9):
 
 
 #!!B------------------------------------------------------------------------------------------------------------------------------------
-#!! Calculate Exponential Moving Average https://www.tradingview.com/scripts/
-    # Calculation EMA, Double EMA, Triple EMA
-    # There are three steps to calculate the EMA. Here is the formula for a 5 Period EMA
+""" Calculate Exponential Moving Average https://www.tradingview.com/scripts/
+    Calculation EMA, Double EMA, Triple EMA
+    There are three steps to calculate the EMA. Here is the formula for a 5 Period EMA
+    1. Calculate the SMA
+    (Period Values / Number of Periods)
+    2. Calculate the Multiplier
+    (2 / (Number of Periods + 1) therefore (2 / (5+1) = 33.333%
+    3. Calculate the EMA
+    For the first EMA, we use the SMA(previous day) instead of EMA(previous day).
+    EMA = {Close - EMA(previous day)} x multiplier + EMA(previous day)
+    INPUT: ticker data includes Adj Close
+"""
 
-    # 1. Calculate the SMA
 
-    # (Period Values / Number of Periods)
-    # 2. Calculate the Multiplier
-
-    # (2 / (Number of Periods + 1) therefore (2 / (5+1) = 33.333%
-    # 3. Calculate the EMA
-    # For the first EMA, we use the SMA(previous day) instead of EMA(previous day).
-
-    # EMA = {Close - EMA(previous day)} x multiplier + EMA(previous day)
-#!! INPUT: ticker data includes Adj Close
 def EMA(data, column=contants.AdjClose, short=20, long=60):
     try:
         result = data.copy()
@@ -147,14 +146,16 @@ def ATR(data, period=14):
     try:
         result = data.copy()
         result["HTL"] = result[contants.High] - result[contants.Low]
-        result["HTPC"] = result[contants.High] - result[contants.AdjClose].shift(1)
-        result["LTPC"] = result[contants.High] - result[contants.AdjClose].shift(1)
+        result["HTPC"] = result[contants.High] - \
+            result[contants.AdjClose].shift(1)
+        result["LTPC"] = result[contants.High] - \
+            result[contants.AdjClose].shift(1)
         result["TR"] = result[["HTL", "HTPC", "LTPC"]].abs().max(axis=1,
                                                                  skipna=False)
         result["ATR"] = result["TR"].ewm(
             span=period, min_periods=period).mean()
         result.dropna(inplace=True)
-        return result[["Date","ATR"]]
+        return result[["Date", "ATR"]]
     except Exception as e:
         contants.logger.error(
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
@@ -257,18 +258,31 @@ def ADX(data, period=14):
         return None
 # #!!E------------------------------------------------------------------------------------------------------------------------------------
 
+
 # #!!B------------------------------------------------------------------------------------------------------------------------------------
-# #!! RENKO: idicate trend with by building a serie of brick (45 degree). The time axis is not fixed in Renko chart.
-# A box size (brick size) typically 3$, 5$ filter out the noise  (all the moements that are smaller than the box size are filtered out)
-# Renko chart uses on the closing prices.
-# Renko chart on draws upside box when the price reachs to box size and downside box when the price down 2x box size.
-# #!! INPUT:
+"""
+Renko idicates trend with by building a serie of brick (45 degree). The time axis is not fixed in the Renko chart.
+A box size (brick size)is typically 3$, 5$ used to filter out the noise 
+i.e. all the price movements that are smaller than the box size are filtered out
+Renko chart only uses on the closing prices. 
+Renko chart on draws upside box when the price reachs to box size and downside box when the price down 2x box size.
+
+INPUT:
+    - Candle stick data (to be convert to renko)
+    - A dataframe for calculated ATR (normally is collected by hour within previous year)
+    - Period (calculate the ATR, by default 120)
+    - ATR length (default 3)
+
+RETURN:
+    - Renko dataframe 
+    - Brick size
+"""
 
 
-def renko_convertion(data, hourly_data, period=120, atr_length=3):
+def renko_convertor(data, hourly_data, period=120, atr_length=3):
     try:
 
-        #Calculate ATR
+        # Calculate ATR
         atr_df = ATR(hourly_data, period)
         atr_df = round(atr_df, 0)
         atr_df.reset_index(inplace=True)
@@ -278,12 +292,13 @@ def renko_convertion(data, hourly_data, period=120, atr_length=3):
         candle_df.drop('Close', axis=1, inplace=True)
         candle_df.reset_index(inplace=True)
         candle_df.columns = ['date', 'open', 'high', 'low', 'close', 'volume']
-        renko = Renko(candle_df)
-        
-        # renko.brick_size = atr_length * round(ATR(hourly_data, period).iloc(-1),0)
-        renko.brick_size = atr_length * value
-        renko_data = renko.get_ohlc_data()
-        return renko_data, renko.brick_size
+
+        # renko = Renko(candle_df)
+
+        # # renko.brick_size = atr_length * round(ATR(hourly_data, period).iloc(-1),0)
+        # renko.brick_size = atr_length * value
+        # renko_data = renko.get_ohlc_data()
+        # return renko_data, renko.brick_size
     except Exception as e:
         contants.logger.error(
             "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
@@ -291,6 +306,88 @@ def renko_convertion(data, hourly_data, period=120, atr_length=3):
 
 # #!!E------------------------------------------------------------------------------------------------------------------------------------
 
+# #!!B------------------------------------------------------------------------------------------------------------------------------------
+# #!! Average Directional Index (ADX)
+# #!! INPUT:
+
+
+def renko(candles, brick_size=3):
+    try:
+        tmp_candles = candles.deepcopy()
+        # Drop Close, Volume column in candles data frame
+        tmp_candles.drop('Close', axis=1, inplace=True)
+        tmp_candles.drop('Volume', axis=1, inplace=True)
+        # Create the renko dataframe
+        renko = pd.DataFrame(
+            columns=columns,
+            data=[],
+        )
+        # Add initial period to renko chart
+        renko.loc[0] = tmp_candles.loc[0]
+        close = tmp_candles.loc[0]['Close'] // brick_size * brick_size
+        renko.iloc[0, 1:] = [close - brick_size,
+                             close, close - brick_size, close]
+        renko['Uptrend'] = True
+
+        columns = ['Date', 'Open', 'High', 'Low', 'Close', 'Uptrend']
+
+        for index, row in tmp_candles.iterrows():
+
+            close = row['close']
+            date = row['date']
+
+            row_p1 = renko.iloc[-1]
+            uptrend = row_p1['Uptrend']
+            close_p1 = row_p1['Close']
+
+            bricks = int((close - close_p1) / brick_size)
+            data = []
+
+            if uptrend and bricks >= 1:
+                for i in range(bricks):
+                    r = [date, close_p1, close_p1 + brick_size,
+                         close_p1, close_p1 + brick_size, uptrend]
+                    data.append(r)
+                    close_p1 += brick_size
+            elif uptrend and bricks <= -2:
+                uptrend = not uptrend
+                bricks += 1
+                close_p1 -= brick_size
+                for i in range(abs(bricks)):
+                    r = [date, close_p1, close_p1, close_p1 -
+                         brick_size, close_p1 - brick_size, uptrend]
+                    data.append(r)
+                    close_p1 -= brick_size
+            elif not uptrend and bricks <= -1:
+                for i in range(abs(bricks)):
+                    r = [date, close_p1, close_p1, close_p1 -
+                         brick_size, close_p1 - brick_size, uptrend]
+                    data.append(r)
+                    close_p1 -= brick_size
+            elif not uptrend and bricks >= 2:
+                uptrend = not uptrend
+                bricks -= 1
+                close_p1 += brick_size
+                for i in range(abs(bricks)):
+                    r = [date, close_p1, close_p1 + brick_size,
+                         close_p1, close_p1 + brick_size, uptrend]
+                    data.append(r)
+                    close_p1 += brick_size
+            else:
+                continue
+
+            sdf = pd.DataFrame(data=data, columns=columns)
+            renko = pd.concat([renko, sdf])
+
+        renko.reset_index(inplace=True, drop=True)
+        return renko
+    except Exception as e:
+        contants.logger.error(
+            "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
+        return None
+
+
+# #!!E------------------------------------------------------------------------------------------------------------------------------------
 
 # #!!B------------------------------------------------------------------------------------------------------------------------------------
 # #!! Average Directional Index (ADX)
