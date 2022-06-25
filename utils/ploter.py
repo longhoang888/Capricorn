@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 from vars import contants
-from utils import functions
+from strategy import indicators
 import logging
 from logging import config
 from dash import Dash, dcc, html, Input, Output
@@ -54,9 +54,7 @@ def tableau(data, checkbox=False, theme='material', height=250, pivot=False):
                            enable_enterprise_modules=pivot, height=height, reload_data=True)
         return gResponse
     except Exception as e:
-        contants.logger.error(
-            "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
-        return None
+        raise e
 #!!E------------------------------------------------------------------------------------------------------------------------------------
 
 #!!B------------------------------------------------------------------------------------------------------------------------------------
@@ -72,7 +70,7 @@ def plot_candlestick(data, EMA=True, title='', yaxis='Price'):
 
         #  Add EMA line chart to candlestick
         if EMA:
-            ema_data = functions.EMA(data, short=50, long=100)[
+            ema_data = indicators.EMA(data, short=50, long=100)[
                 ["Date", "TSEMA", "TLEMA"]].dropna()
             # ema_data_60 = devf.EMA(data, short=60)[["Date", "DSEMA"]].dropna()
             # st.write(ema)
@@ -163,9 +161,7 @@ def plot_candlestick(data, EMA=True, title='', yaxis='Price'):
         st.plotly_chart(fig, use_container_width=True)
         return fig
     except Exception as e:
-        contants.logger.error(
-            "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
-        return None
+        raise e
 #!!E------------------------------------------------------------------------------------------------------------------------------------
 
 #!!B------------------------------------------------------------------------------------------------------------------------------------
@@ -202,7 +198,5 @@ def plot_renko(data, **kwargs):
         st.plotly_chart(fig, use_container_width=True)
         return fig
     except Exception as e:
-        contants.logger.error(
-            "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
-        return None
+        raise e
 #!!E------------------------------------------------------------------------------------------------------------------------------------

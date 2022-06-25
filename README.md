@@ -1,4 +1,5 @@
 # python-streamlit
+
 This project is built on yfinance, an open source API to access the financial data available on Yahoo Finance.
 As mentioned, this free API has no guarantee if it breaks it will be maintained.
 This project mainly discover the solutions and get a touch to the financial python world.
@@ -27,7 +28,6 @@ Libraries: streamlit, yfinance, pnadas, numpy, mplfinance, stocktrends, talib
 
 pip install streamlit
 
-
 pip install pipenv
 
 streamlit run app.py
@@ -44,6 +44,4 @@ offset_order = offset_dict[collection._offset_position] ) -->not working
 
 I have decided to uninstall matplotlib 3.5 and downgrade it to 3.4.0 to fix the issue
 
-
-
-
+from st_aggrid import AgGrid

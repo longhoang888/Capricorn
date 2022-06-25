@@ -10,7 +10,6 @@ import numpy as np
 import pandas as pd
 from datetime import date, timedelta
 from vars import contants
-from utils import functions
 import xlwt
 
 #!!B-----------------------------------------------------------------------------------------------------------------------------------

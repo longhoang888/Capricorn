@@ -14,10 +14,10 @@ from PIL import Image
 import datetime
 import time
 from datetime import date, timedelta
-from utils import functions, painter as db
+from utils import feeder, logger, ploter
 from apps import sidebar, header
 from vars import contants, messages as msg
-from st_aggrid import AgGrid
+from strategy import indicators
 
 
 #!! Load image to the web app
@@ -29,7 +29,7 @@ from st_aggrid import AgGrid
 st.set_page_config(page_title=contants.page_title, layout=contants.page_layout)
 
 #!! Activate Logger
-functions.active_logger()
+logger = logger.Log.active()
 
 #!!B-----------------------------------------------------------------------------------------------------------------------------------
 #!! Application Executor
@@ -43,7 +43,7 @@ def main():
         inputs = sidebar.add()
         if inputs[contants.F8] != contants.noGO:
             #!! Get stock infor
-            candle_df, renko_df = functions.get_yfdata(inputs)
+            candle_df, renko_df = feeder.get_yfdata(inputs)
             if candle_df.empty:
                 st.error(msg.E001)
             else:
@@ -58,11 +58,11 @@ def main():
                 # hour_df, raw_df = devf.get_yfdata(input_renko)
                 # renko_chart = devf.renko_convertion(renko_df, hour_df)
                 # db.renko(renko_chart)
-                db.renko(renko_df)
+                renko = indicators.renko(renko_df)
+                ploter.tableau(renko)
                 st.write('Data source: **Yahoo Finance**')
     except Exception as e:
-        contants.logger.error(
-            "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
+        logger.write(e)
 #!!E-----------------------------------------------------------------------------------------------------------------------------------
 
 

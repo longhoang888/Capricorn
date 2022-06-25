@@ -262,9 +262,9 @@ def ADX(data, period=14):
 # #!!B------------------------------------------------------------------------------------------------------------------------------------
 """
 Renko idicates trend with by building a serie of brick (45 degree). The time axis is not fixed in the Renko chart.
-A box size (brick size)is typically 3$, 5$ used to filter out the noise 
+A box size (brick size)is typically 3$, 5$ used to filter out the noise
 i.e. all the price movements that are smaller than the box size are filtered out
-Renko chart only uses on the closing prices. 
+Renko chart only uses on the closing prices.
 Renko chart on draws upside box when the price reachs to box size and downside box when the price down 2x box size.
 
 INPUT:
@@ -274,7 +274,7 @@ INPUT:
     - ATR length (default 3)
 
 RETURN:
-    - Renko dataframe 
+    - Renko dataframe
     - Brick size
 """
 
@@ -297,7 +297,7 @@ def renko_convertor(data, hourly_data, period=120, atr_length=3):
 
         # # renko.brick_size = atr_length * round(ATR(hourly_data, period).iloc(-1),0)
         # renko.brick_size = atr_length * value
-        # renko_data = renko.get_ohlc_data()
+        renko_data = renko.get_ohlc_data()
         # return renko_data, renko.brick_size
     except Exception as e:
         contants.logger.error(
@@ -311,25 +311,47 @@ def renko_convertor(data, hourly_data, period=120, atr_length=3):
 # #!! INPUT:
 
 
+# <FUNCTION START>-------------------------------------------------------------------------------------------
 def renko(candles, brick_size=3):
+    """
+        Calculate Renko dataset based on candles dataframe
+
+        Arguments:
+
+        Candlestick dataframe ['Date', 'Open', 'High', 'Low', 'Close', 'Aju Close, Volume]
+
+        Brick size; by default is set to 3
+
+
+    """
     try:
-        tmp_candles = candles.deepcopy()
-        # Drop Close, Volume column in candles data frame
+        tmp_candles = candles.copy()
+        # Drop Close, Volume column in candles dataframe
         tmp_candles.drop('Close', axis=1, inplace=True)
-        tmp_candles.drop('Volume', axis=1, inplace=True)
+        # tmp_candles.drop('Volume', axis=1, inplace=True)
+        tmp_candles.reset_index(inplace=True)
+        # Rename the candles dataframe
+        # tmp_candles.rename(columns={'Adj Close': "Close"}, inplace=True)
+        tmp_candles.columns = ['Date', 'Open',
+                               'High', 'Low', 'Close', 'Volume']
         # Create the renko dataframe
+        columns = ['Date', 'Open', 'High', 'Low', 'Close', 'Uptrend']
         renko = pd.DataFrame(
             columns=columns,
             data=[],
         )
+
         # Add initial period to renko chart
         renko.loc[0] = tmp_candles.loc[0]
+
         close = tmp_candles.loc[0]['Close'] // brick_size * brick_size
+
         renko.iloc[0, 1:] = [close - brick_size,
                              close, close - brick_size, close]
-        renko['Uptrend'] = True
 
-        columns = ['Date', 'Open', 'High', 'Low', 'Close', 'Uptrend']
+        # Determine Uptrend/ Downtrend
+        renko['Uptrend'] = True
+        # columns = ['Date', 'Open', 'High', 'Low', 'Close', 'Uptrend']
 
         for index, row in tmp_candles.iterrows():
 
@@ -382,14 +404,8 @@ def renko(candles, brick_size=3):
         renko.reset_index(inplace=True, drop=True)
         return renko
     except Exception as e:
-        contants.logger.error(
-            "Error Type : {}, Error Message : {}".format(type(e).__name__, e))
-        return None
+        raise e
+# <FUNCTION END>---------------------------------------------------------------------------------------------
 
-
-# #!!E------------------------------------------------------------------------------------------------------------------------------------
-
-# #!!B------------------------------------------------------------------------------------------------------------------------------------
-# #!! Average Directional Index (ADX)
-# #!! INPUT:
-# #!!E------------------------------------------------------------------------------------------------------------------------------------
+# <FUNCTION START>-------------------------------------------------------------------------------------------
+# <FUNCTION END>---------------------------------------------------------------------------------------------

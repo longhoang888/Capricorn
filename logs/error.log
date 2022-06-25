@@ -1,4 +1,1 @@
-24-06-2022 02:55:07 : ERROR : dashboard : renko : 206 : (Process Details : (29996, MainProcess), Thread Details : (23016, ScriptRunner.scriptThread))\nLog : Error Type : KeyError, Error Message : 'date'
-24-06-2022 02:55:36 : ERROR : dashboard : renko : 206 : (Process Details : (29996, MainProcess), Thread Details : (33840, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'float' object has no attribute 'strftime'
-24-06-2022 02:56:01 : ERROR : dashboard : renko : 207 : (Process Details : (29996, MainProcess), Thread Details : (34776, ScriptRunner.scriptThread))\nLog : Error Type : ValueError, Error Message : Invalid format specifier
-24-06-2022 02:56:44 : ERROR : dashboard : renko : 207 : (Process Details : (29996, MainProcess), Thread Details : (36620, ScriptRunner.scriptThread))\nLog : Error Type : AttributeError, Error Message : 'float' object has no attribute 'strftime'
+
