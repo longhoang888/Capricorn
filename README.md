@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # python-streamlit
 
 This project is built on yfinance, an open source API to access the financial data available on Yahoo Finance.
@@ -25,6 +26,11 @@ Good website on chart patterns: http://thepatternsite.com
 Project LEO
 
 Libraries: streamlit, yfinance, pnadas, numpy, mplfinance, stocktrends, talib
+=======
+# Capricorn
+Project Capricorn 
+Libraries: streamlit, yfinance, pnadas, numpy
+>>>>>>> 7274c02307a166a2772935ecf76f2b0f603b9d3e
 
 pip install streamlit
 
